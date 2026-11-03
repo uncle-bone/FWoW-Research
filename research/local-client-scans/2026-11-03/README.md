@@ -64,3 +64,6 @@ The full `Interface` tree contains 23,810 files (~1.4 GB). The scan inventoried 
 
 The connected repository README says this is a source-discovery/documentation-stage project and that no full client had yet been scanned. This local scan verifies an installed `wowf` client at build `1.60.1.70707`, above the README's stated Forever build threshold. This source-attributed scan report and factual metadata are being added to the repository; no client assets are included.
 
+## Encounter cross-reference results
+
+The [encounter audit](ENCOUNTER-AUDIT.md) and [machine-readable cross-reference](encounter-cross-reference.json) compare the two original JSON extracts without altering them. All 24 DBM module encounter IDs match catalog entries; 191 other distinct catalog encounter IDs have no matching DBM-Forever module. The 201 catalog rows with IDs yield 216 assignments and 215 unique IDs, with one duplicated ID (2742, Sneed / Sneed's Shredder). Investigate module/catalog name discrepancies for 3301, 3495 and 3355 before asserting NPC or boss equivalence. All findings are **static source-to-source evidence**, not live verification or working boss mechanics.
