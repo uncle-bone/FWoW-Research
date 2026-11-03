@@ -1,0 +1,41 @@
+{
+  "game": "World of Warcraft: Forever",
+  "build": "1.60.1.70532",
+  "source": "https://foreverdiff.gg/",
+  "source_detail": "https://foreverdiff.com/builds/1.60.1.70532/",
+  "retrieved_on": "2026-11-02",
+  "status": "published_index_counts_not_imported_records",
+  "counts": {
+    "spells": 31962,
+    "items": 19257,
+    "creatures": 10483,
+    "objects": 9869,
+    "quests": 7387,
+    "recipes": 7853,
+    "enchantments": 2217,
+    "zones": 1375,
+    "item_sets": 536,
+    "talents": 432,
+    "achievements": 441,
+    "factions": 253,
+    "skills": 154,
+    "dungeons": 40,
+    "classes": 9
+  },
+  "raw_table_rows": {
+    "SpellEffect": 42726,
+    "CurvePoint": 41758,
+    "Curve": 19595,
+    "ItemModifiedAppearance": 16806,
+    "ItemEffect": 12651,
+    "UiMapArtTile": 1672,
+    "DungeonEncounter": 342,
+    "TaxiPath": 328
+  },
+  "caveats": [
+    "Counts are source-specific and may include test/internal records",
+    "Some client tables are partially encrypted",
+    "Quest and NPC world observations may be server-side",
+    "Other sites report different counts or newer builds; do not merge without matching build and definitions"
+  ]
+}
