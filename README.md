@@ -31,3 +31,7 @@ One authorized local Forever client build has been scanned and its source-attrib
 ### Encounter cross-reference (2026-11-03)
 
 [Read the encounter audit](research/local-client-scans/2026-11-03/ENCOUNTER-AUDIT.md) or [download the machine-readable joins](research/local-client-scans/2026-11-03/encounter-cross-reference.json). All 24 installed DBM-Party-Forever registration modules match catalog encounter IDs by exact numeric ID. The catalog has 201 rows with encounter IDs, 216 assignments and 215 distinct encounter IDs; 191 catalog IDs lack a module in this 24-module set. Encounter ID 2742 occurs twice (Sneed and Sneed's Shredder). Static matches are **not** live-confirmed mechanics, boss spawns, creature triggers, timers or warnings. The audit preserves source names and provenance without changing original extracts.
+
+### Dreadwatch encounter source audit (2026-11-03)
+
+The client has since updated to build 70755. The addon/source comparison and build-specific caveats are in the [Dreadwatch source audit](research/encounter-source-audits/2026-11-03-dreadwatch-forever-source-audit.md) and [machine-readable JSON](research/encounter-source-audits/2026-11-03-dreadwatch-forever-source-audit.json). The existing dungeon catalog remains attributed to build 70707 until re-extracted for 70755.
