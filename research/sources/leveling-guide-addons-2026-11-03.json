@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-03",
+  "scope": "WoW Forever guide-addon source discovery",
+  "sources": [
+    {
+      "name": "RestedXP Guides",
+      "repository": "https://github.com/RestedXP/RXPGuides",
+      "releases": "https://github.com/RestedXP/RXPGuides/releases",
+      "latest_verified_version": "4.11.29",
+      "release_date": "2026-10-29",
+      "categories": [
+        "Skyborne quest routing",
+        "starter-zone routes",
+        "dungeon guide updates",
+        "class quest routing",
+        "spell training",
+        "Forever API compatibility"
+      ],
+      "provenance": "public release notes",
+      "usage": "reference factual IDs and independently verify; check license before reusing code or guide text"
+    },
+    {
+      "name": "Zygor Guides",
+      "url": "https://www.zygorguides.com/launch/",
+      "download_instructions": "https://www.zygorguides.com/support/manual/manualinstall",
+      "published": "2026-10-30",
+      "categories": [
+        "Forever levels 1-30",
+        "Classic interim 31-60",
+        "Skyborne 1-13",
+        "four dungeon guides",
+        "talent advisor",
+        "travel system"
+      ],
+      "access": "account/license required for full manual ZIP",
+      "usage": "reference publicly documented features only; do not redistribute proprietary guide data"
+    }
+  ],
+  "next_steps": [
+    "Verify Forever quest and spell IDs from client or permissively licensed data",
+    "Separate public release-note metadata from copyrighted guide contents",
+    "Track build-specific corrections and source provenance"
+  ]
+}
