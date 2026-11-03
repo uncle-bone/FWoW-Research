@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.0",
+  "collected_date": "2026-11-03",
+  "local_client": {
+    "flavor": "wowf",
+    "version": "1.60.1.70755",
+    "build": 70755,
+    "interface": 16001,
+    "verification": "local executable metadata and .flavor.info inspected after user confirmed update finished",
+    "prior_scan_build": 70707,
+    "note": "Older extracted catalog rows remain attributed to build 70707 unless individually re-extracted."
+  },
+  "sources": [
+    {
+      "name": "uncle-bone/Dreadwatch",
+      "url": "https://github.com/uncle-bone/Dreadwatch",
+      "branch": "main",
+      "head": "dff13365b188f73471e42eb2a5e87c9c4e222422",
+      "evidence": "SOURCE VERIFIED",
+      "finding": "PTR diagnostics and research only; no functional encounter engine or boss modules found in repository tree."
+    },
+    {
+      "name": "DeadlyBossMods/DBM-Dungeons",
+      "url": "https://github.com/DeadlyBossMods/DBM-Dungeons",
+      "branch": "master",
+      "head": "f143f5d8",
+      "latest_release": "270",
+      "release_url": "https://github.com/DeadlyBossMods/DBM-Dungeons/releases/tag/270",
+      "evidence": "SOURCE VERIFIED",
+      "finding": "Current Forever pack has 24 registration scripts across four custom dungeons; no active boss-specific spell handlers, timer/warning declarations, or creature-ID declarations."
+    },
+    {
+      "name": "BigWigsMods/BigWigs",
+      "url": "https://github.com/BigWigsMods/BigWigs",
+      "branch": "master",
+      "evidence": "SOURCE VERIFIED",
+      "finding": "Core source; no Forever-specific dungeon/raid modules in inspected current tree."
+    },
+    {
+      "name": "BigWigsMods/LittleWigs",
+      "url": "https://github.com/BigWigsMods/LittleWigs",
+      "branch": "master",
+      "evidence": "SOURCE VERIFIED",
+      "finding": "No Forever-specific dungeon module set in inspected current tree."
+    },
+    {
+      "name": "neroxrw/ForeverAuras",
+      "url": "https://github.com/neroxrw/ForeverAuras",
+      "branch": "main",
+      "evidence": "SOURCE VERIFIED",
+      "finding": "Aura platform/engine; no verified matching Forever encounter schedule established in this pass."
+    },
+    {
+      "name": "Thunderz96/forever-addon-kit",
+      "url": "https://github.com/Thunderz96/forever-addon-kit",
+      "branch": "main",
+      "evidence": "SOURCE VERIFIED",
+      "finding": "API and addon development reference, not verified encounter timing data."
+    },
+    {
+      "name": "mparke/forever-addons",
+      "url": "https://github.com/mparke/forever-addons",
+      "branch": "main",
+      "evidence": "SOURCE VERIFIED",
+      "finding": "Probe/example addon source; no verified encounter timings in reviewed files."
+    }
+  ],
+  "local_addons": [
+    {
+      "name": "DBM-Party-Forever",
+      "version": "270",
+      "interface": 16001,
+      "module_scripts": 24,
+      "by_dungeon": {
+        "city_of_dalaran": 9,
+        "excavation_site": 4,
+        "hall_of_thanes": 4,
+        "ruins_of_lordaeron": 7
+      },
+      "active_encounter_id_declarations": 24,
+      "active_zone_declarations": 24,
+      "generic_trash_flags": 24,
+      "active_creature_id_declarations": 0,
+      "boss_event_handlers": 0,
+      "boss_specific_timer_warning_declarations": 0,
+      "evidence": "SOURCE VERIFIED",
+      "live_mechanics": "UNRESOLVED"
+    },
+    {
+      "name": "DreadwatchPTR",
+      "version": "0.2.0-ptr",
+      "installed": true,
+      "functional_boss_mod": false,
+      "live_test_status": "not tested after build 70755 update",
+      "evidence": "SOURCE VERIFIED"
+    }
+  ],
+  "changelog_milestones": [
+    {
+      "date": "2026-09-17",
+      "commit": "483b43b4",
+      "url": "https://github.com/DeadlyBossMods/DBM-Dungeons/commit/483b43b4",
+      "finding": "Forever registration scripts introduced as part of large preparation change."
+    },
+    {
+      "date": "2026-09-20",
+      "release": "r264",
+      "url": "https://github.com/DeadlyBossMods/DBM-Dungeons/releases/tag/r264",
+      "finding": "TOC refactoring and Forever-specific load filtering."
+    },
+    {
+      "date": "2026-10-19",
+      "release": "r268",
+      "url": "https://github.com/DeadlyBossMods/DBM-Dungeons/releases/tag/r268",
+      "finding": "Generic-trash feature enabled for Forever bosses; not per-boss schedules."
+    },
+    {
+      "date": "2026-10-26",
+      "release": "r269",
+      "url": "https://github.com/DeadlyBossMods/DBM-Dungeons/releases/tag/r269",
+      "finding": "General fixes; Horseman localization is not mechanic evidence."
+    },
+    {
+      "date": "2026-11-03",
+      "release": "270",
+      "url": "https://github.com/DeadlyBossMods/DBM-Dungeons/releases/tag/270",
+      "finding": "Bug fixes and pack/icon handling; no custom-dungeon mechanics noted."
+    }
+  ],
+  "counts": {
+    "dbm_forever_module_scripts": 24,
+    "custom_dungeons_represented": 4,
+    "active_boss_specific_handler_definitions": 0,
+    "active_boss_specific_timer_warning_definitions": 0,
+    "active_creature_id_declarations": 0,
+    "live_verified_custom_dungeon_mechanics": 0,
+    "dreadwatch_functional_boss_modules": 0,
+    "littlewigs_forever_dungeon_modules": 0
+  },
+  "unresolved": [
+    "Re-extract the full client catalog for build 70755; existing catalog rows were extracted from build 70707.",
+    "Collect permitted timestamped Forever dungeon and raid combat observations.",
+    "Verify DBM generic-trash behavior in build 70755.",
+    "Audit Classic DBM and holiday encounter modules individually before treating them as Forever-compatible.",
+    "Run DreadwatchPTR 0.2.0 safely in build 70755; namespace presence alone is not API or encounter verification.",
+    "Locate and inspect exact public aura exports and boss-tip packages with revision provenance."
+  ],
+  "identity_conflicts_preserved": [
+    {
+      "encounter_id": 3301,
+      "names": [
+        "ManaElemental",
+        "Arcanic Enigma"
+      ]
+    },
+    {
+      "encounter_id": 3495,
+      "names": [
+        "Infurnus",
+        "Magmatus"
+      ]
+    },
+    {
+      "encounter_id": 3355,
+      "names": [
+        "TheButcher",
+        "The Baron"
+      ]
+    },
+    {
+      "encounter_id": 2742,
+      "names": [
+        "Sneed",
+        "Sneed's Shredder"
+      ]
+    }
+  ]
+}
