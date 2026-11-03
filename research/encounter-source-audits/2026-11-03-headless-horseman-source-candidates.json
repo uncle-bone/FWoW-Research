@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "collected_date": "2026-11-03",
+  "local_client": {
+    "flavor": "wowf",
+    "version": "1.60.1.70755",
+    "build": 70755,
+    "interface": 16001,
+    "verification": "local executable and addon TOC scanned"
+  },
+  "source": {
+    "repository": "DeadlyBossMods/DBM-Dungeons",
+    "branch": "master",
+    "path": "DBM-WorldEvents/Holidays/HeadlessHorseman.lua",
+    "url": "https://github.com/DeadlyBossMods/DBM-Dungeons/blob/master/DBM-WorldEvents/Holidays/HeadlessHorseman.lua",
+    "evidence": "SOURCE VERIFIED",
+    "live_forever_mechanics": "UNRESOLVED"
+  },
+  "toc": {
+    "path": "DBM-WorldEvents/DBM-WorldEvents.toc",
+    "url": "https://github.com/DeadlyBossMods/DBM-Dungeons/blob/master/DBM-WorldEvents/DBM-WorldEvents.toc",
+    "interfaces": [
+      11509,
+      20506,
+      30405,
+      38002,
+      40402,
+      50504,
+      120105,
+      120107
+    ],
+    "allows_game_types": [
+      "standard",
+      "classic"
+    ],
+    "includes_forever_interface_16001": false
+  },
+  "modern_retail_branch": {
+    "classification": "HISTORICAL / source-only, not Forever verified",
+    "line_refs": {
+      "branch": "6",
+      "creature_encounter": "8-10",
+      "active_event_registration": "14-16",
+      "commented_spell_events": "18-23",
+      "commented_warning_timer_definitions": "26-36"
+    },
+    "identity": {
+      "zone_id": 1004,
+      "creature_ids": [
+        207438
+      ],
+      "encounter_id": 2725
+    },
+    "candidate_abilities": [
+      {
+        "spell_id": 415262,
+        "name": "Insidious Cackle",
+        "commented_timer_baseline_seconds": 41.4,
+        "commented_sequence_seconds": [
+          35.3,
+          54.6,
+          46,
+          46.2
+        ],
+        "status": "commented out"
+      },
+      {
+        "spell_id": 423626,
+        "name": "Hot Head",
+        "commented_timer_baseline_seconds": 49,
+        "commented_sequence_seconds": [
+          61.9,
+          70.4
+        ],
+        "commented_initial_delay_seconds": 62,
+        "status": "commented out"
+      },
+      {
+        "spell_id": 414844,
+        "name": "Pumpkin Breath",
+        "commented_timer_baseline_seconds": 41.4,
+        "commented_sequence_seconds": [
+          6.1,
+          41.3,
+          54.6,
+          55.8
+        ],
+        "commented_initial_delay_seconds": 6,
+        "status": "commented out"
+      },
+      {
+        "spell_id": 415047,
+        "name": "Vine March",
+        "commented_timer_baseline_seconds": 41.4,
+        "commented_sequence_seconds": [
+          20.6,
+          42.5,
+          42.5,
+          54.6
+        ],
+        "commented_initial_delay_seconds": 20,
+        "status": "commented out"
+      },
+      {
+        "spell_id": 423623,
+        "name": "Hot Head aura",
+        "status": "commented warning"
+      },
+      {
+        "spell_id": 415329,
+        "name": "Pumpkin Breath damage/miss",
+        "status": "commented GTFO warning"
+      }
+    ],
+    "timing_confidence": "Do not treat as exact or Forever-valid; source contains alternative timing comments."
+  },
+  "classic_branch": {
+    "classification": "HISTORICAL",
+    "zone_id": 189,
+    "creature_ids": [
+      23682,
+      23775
+    ],
+    "active_target_warning_spells": [
+      {
+        "spell_id": 42380,
+        "name": "Conflagration",
+        "target_timer_seconds": 4
+      },
+      {
+        "spell_id": 42514,
+        "name": "Squash Soul",
+        "target_timer_seconds": 15
+      }
+    ],
+    "phase_or_command_spell_ids": [
+      42410,
+      42547,
+      42548,
+      42549
+    ],
+    "forever_verification": "none"
+  },
+  "release_note": {
+    "release": "r269",
+    "url": "https://github.com/DeadlyBossMods/DBM-Dungeons/releases/tag/r269",
+    "finding": "Horseman localization entry only; not mechanic implementation evidence."
+  }
+}
