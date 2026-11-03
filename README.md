@@ -35,3 +35,5 @@ One authorized local Forever client build has been scanned and its source-attrib
 ### Dreadwatch encounter source audit (2026-11-03)
 
 The client has since updated to build 70755. The addon/source comparison and build-specific caveats are in the [Dreadwatch source audit](research/encounter-source-audits/2026-11-03-dreadwatch-forever-source-audit.md) and [machine-readable JSON](research/encounter-source-audits/2026-11-03-dreadwatch-forever-source-audit.json). The existing dungeon catalog remains attributed to build 70707 until re-extracted for 70755.
+
+A focused follow-up records the [Headless Horseman module candidates](research/encounter-source-audits/2026-11-03-headless-horseman-source-candidates.md) and [machine-readable candidates](research/encounter-source-audits/2026-11-03-headless-horseman-source-candidates.json). They are source-only or historical; the installed DBM-WorldEvents TOC does not target interface 16001.
