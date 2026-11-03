@@ -20,5 +20,10 @@ The `wow_classic_beta` product code has hosted other games: verify the client ve
 ## Data integrity
 Every imported record should carry `source_url`, `observed_build`, `collected_at`, `method`, `license`, and `confidence`. Keep beta-only, client-extracted, community-observed, and confirmed-live records distinct. Store independently authored summaries and permitted factual metadata, not bulk copies of third-party protected content.
 
+## Local client scan
+
+A locally installed Forever client was verified as flavor `wowf`, version `1.60.1.70707` (build 70707). The first scan’s source-attributed, addon-derived catalog records and audit are in [research/local-client-scans/2026-11-03](research/local-client-scans/2026-11-03/README.md). The scan found 35 dungeon journal instance files, 311 named NPC/catalog rows (279 with explicit NPC IDs; 201 with encounter IDs), and 24 custom DBM Forever registration modules. These static addon records are not live-mechanics verification. No client archives, executable, or addon folders were added.
+
 ## Status
-Source discovery and documentation stage. No full client has been downloaded or scanned by this repository yet.
+
+One authorized local Forever client build has been scanned and its source-attributed factual metadata documented. Continued work should add client database extraction and live observations while preserving build and confidence provenance.
