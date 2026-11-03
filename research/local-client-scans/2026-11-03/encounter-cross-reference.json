@@ -1,0 +1,556 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-11-03",
+  "client_build": "1.60.1.70707",
+  "method": "static-cross-reference-by-exact-encounter-id",
+  "sources": {
+    "catalog": "research/local-client-scans/2026-11-03/dungeon-catalog.json",
+    "dbm": "research/local-client-scans/2026-11-03/dbm-forever-module-audit.json"
+  },
+  "counts": {
+    "dungeon_files": 35,
+    "catalog_rows": 311,
+    "catalog_rows_with_encounter_ids": 201,
+    "catalog_encounter_id_occurrences": 216,
+    "unique_catalog_encounter_ids": 215,
+    "dbm_modules": 24,
+    "dbm_modules_matched": 24,
+    "dbm_modules_unmatched": 0,
+    "unique_catalog_ids_without_dbm_module": 191,
+    "duplicate_catalog_encounter_ids": 1
+  },
+  "matched_modules": [
+    {
+      "module": "ArcaneAnomaly",
+      "encounter_id": 3298,
+      "zone_id": 2959,
+      "matched_catalog_rows": [
+        {
+          "name": "Arcane Anomaly",
+          "dungeon": "City of Dalaran",
+          "npc_id": 245999,
+          "source_line": 12,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\Dalaran.lua",
+          "source_sha256": "D4F3B90D8B46ECF5AEA04BB301C1266954D25A8ED594D47C151646F37C473007"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": false,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\CityofDalaran\\ArcaneAnomaly.lua",
+      "dbm_source_sha256": "B035FA7E508BF479DA55935DC7750C1701900067F21E7EF517339277BBA84714",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "AtrexistheGraveKnight",
+      "encounter_id": 3311,
+      "zone_id": 2959,
+      "matched_catalog_rows": [
+        {
+          "name": "Atrexis the Grave Knight",
+          "dungeon": "City of Dalaran",
+          "npc_id": 247126,
+          "source_line": 11,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\Dalaran.lua",
+          "source_sha256": "D4F3B90D8B46ECF5AEA04BB301C1266954D25A8ED594D47C151646F37C473007"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": false,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\CityofDalaran\\AtrexistheGraveKnight.lua",
+      "dbm_source_sha256": "5086F5274D309B62CAE1A1FB072CA9637B29D5489B709A4B591B9B14606358E1",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "FelAncient",
+      "encounter_id": 3299,
+      "zone_id": 2959,
+      "matched_catalog_rows": [
+        {
+          "name": "Fel Ancient",
+          "dungeon": "City of Dalaran",
+          "npc_id": 246003,
+          "source_line": 13,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\Dalaran.lua",
+          "source_sha256": "D4F3B90D8B46ECF5AEA04BB301C1266954D25A8ED594D47C151646F37C473007"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": false,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\CityofDalaran\\FelAncient.lua",
+      "dbm_source_sha256": "F458E9EDAD21FC649D0A08999E6F0A143C520922DAE2CBD190C4F395549C6046",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "LyntheIgnored",
+      "encounter_id": 3310,
+      "zone_id": 2959,
+      "matched_catalog_rows": [
+        {
+          "name": "Lyn the Ignored",
+          "dungeon": "City of Dalaran",
+          "npc_id": 247032,
+          "source_line": 16,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\Dalaran.lua",
+          "source_sha256": "D4F3B90D8B46ECF5AEA04BB301C1266954D25A8ED594D47C151646F37C473007"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": false,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\CityofDalaran\\LyntheIgnored.lua",
+      "dbm_source_sha256": "8CE8347EAF94900533C846F60D085E6D7A225A94C50836AE41BF21C5B2D0451A",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "ManaDevourer",
+      "encounter_id": 3300,
+      "zone_id": 2959,
+      "matched_catalog_rows": [
+        {
+          "name": "Mana Devourer",
+          "dungeon": "City of Dalaran",
+          "npc_id": 246008,
+          "source_line": 18,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\Dalaran.lua",
+          "source_sha256": "D4F3B90D8B46ECF5AEA04BB301C1266954D25A8ED594D47C151646F37C473007"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": false,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\CityofDalaran\\ManaDevourer.lua",
+      "dbm_source_sha256": "5A5E16B5278E1195CF84C9199F510DB456D813921FD61D7263BB4EC2F3259F22",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "ManaElemental",
+      "encounter_id": 3301,
+      "zone_id": 2959,
+      "matched_catalog_rows": [
+        {
+          "name": "Arcanic Enigma",
+          "dungeon": "City of Dalaran",
+          "npc_id": 246016,
+          "source_line": 19,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\Dalaran.lua",
+          "source_sha256": "D4F3B90D8B46ECF5AEA04BB301C1266954D25A8ED594D47C151646F37C473007"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": true,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\CityofDalaran\\ManaElemental.lua",
+      "dbm_source_sha256": "88AB13A8A0C82F72978F2A1739CDDCCDB3AD756EC8EB2169589170194343D759",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "ManaWraith",
+      "encounter_id": 3312,
+      "zone_id": 2959,
+      "matched_catalog_rows": [
+        {
+          "name": "Mana Wraith",
+          "dungeon": "City of Dalaran",
+          "npc_id": 246931,
+          "source_line": 17,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\Dalaran.lua",
+          "source_sha256": "D4F3B90D8B46ECF5AEA04BB301C1266954D25A8ED594D47C151646F37C473007"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": false,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\CityofDalaran\\ManaWraith.lua",
+      "dbm_source_sha256": "0A296CE0A230A15E0004FFFA3115CD0A9C28F494425FD52CF2333962E95329F3",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "ShadeoftheArchmage",
+      "encounter_id": 3303,
+      "zone_id": 2959,
+      "matched_catalog_rows": [
+        {
+          "name": "Shade of the Archmage",
+          "dungeon": "City of Dalaran",
+          "npc_id": 246020,
+          "source_line": 15,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\Dalaran.lua",
+          "source_sha256": "D4F3B90D8B46ECF5AEA04BB301C1266954D25A8ED594D47C151646F37C473007"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": false,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\CityofDalaran\\ShadeoftheArchmage.lua",
+      "dbm_source_sha256": "F3D1F2E51E604EE2ADC9077C5EDFF1E213293B759A0079D2E5D033F2CA9A6F10",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "UnstableSentinel",
+      "encounter_id": 3302,
+      "zone_id": 2959,
+      "matched_catalog_rows": [
+        {
+          "name": "Unstable Sentinel",
+          "dungeon": "City of Dalaran",
+          "npc_id": 246017,
+          "source_line": 14,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\Dalaran.lua",
+          "source_sha256": "D4F3B90D8B46ECF5AEA04BB301C1266954D25A8ED594D47C151646F37C473007"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": false,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\CityofDalaran\\UnstableSentinel.lua",
+      "dbm_source_sha256": "8206CD84D5F7E9EE8E1FC49CDF64284E9268D8E177548B7406B41DE2FDA3BD02",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "HighlandHorror",
+      "encounter_id": 3644,
+      "zone_id": 2998,
+      "matched_catalog_rows": [
+        {
+          "name": "Highland Horror",
+          "dungeon": "Excavation Site: Wetlands",
+          "npc_id": 260808,
+          "source_line": 13,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\ExcavationSite.lua",
+          "source_sha256": "3A19F21ACC47677DB2A764F098A4FB0E1344668F3918AE7F73AC85345AB312C7"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": false,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\ExcavationSite\\HighlandHorror.lua",
+      "dbm_source_sha256": "A1BA60964193E608F97029D75161F2235FB9697A94AE7271228CD732B0E1B778",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "RelicGuardian",
+      "encounter_id": 3482,
+      "zone_id": 2998,
+      "matched_catalog_rows": [
+        {
+          "name": "Relic Guardian",
+          "dungeon": "Excavation Site: Wetlands",
+          "npc_id": 260326,
+          "source_line": 14,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\ExcavationSite.lua",
+          "source_sha256": "3A19F21ACC47677DB2A764F098A4FB0E1344668F3918AE7F73AC85345AB312C7"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": false,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\ExcavationSite\\RelicGuardian.lua",
+      "dbm_source_sha256": "9FCFBCC05AC9DFE64DF800FAAF12EE511EFA986751D2AE0C0560AFA44DCC5BFF",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "Saltspine",
+      "encounter_id": 3480,
+      "zone_id": 2998,
+      "matched_catalog_rows": [
+        {
+          "name": "Saltspine",
+          "dungeon": "Excavation Site: Wetlands",
+          "npc_id": 260322,
+          "source_line": 11,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\ExcavationSite.lua",
+          "source_sha256": "3A19F21ACC47677DB2A764F098A4FB0E1344668F3918AE7F73AC85345AB312C7"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": false,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\ExcavationSite\\Saltspine.lua",
+      "dbm_source_sha256": "B48DA31F79CDD1416C84F1887300649F400175D50D6BA0DCC67155142C2B82E7",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "Shadetooth",
+      "encounter_id": 3481,
+      "zone_id": 2998,
+      "matched_catalog_rows": [
+        {
+          "name": "Shadetooth",
+          "dungeon": "Excavation Site: Wetlands",
+          "npc_id": 260325,
+          "source_line": 12,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\ExcavationSite.lua",
+          "source_sha256": "3A19F21ACC47677DB2A764F098A4FB0E1344668F3918AE7F73AC85345AB312C7"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": false,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\ExcavationSite\\Shadetooth.lua",
+      "dbm_source_sha256": "B8DE2997625D195E97AD0F32383E68FF2D774D05F3B1DCC204E7961F0B661EC3",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "DurgenDirgehammer",
+      "encounter_id": 3496,
+      "zone_id": 3065,
+      "matched_catalog_rows": [
+        {
+          "name": "Durgen Dirgehammer",
+          "dungeon": "The Hall of Thanes",
+          "npc_id": 261319,
+          "source_line": 14,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\HallOfThanes.lua",
+          "source_sha256": "1F9E3A81C9131E90F1A69532EFB81EB29DD9DF41240B497CE92DE669CC37F30A"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": false,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\HallofThanes\\DurgenDirgehammer.lua",
+      "dbm_source_sha256": "CF12C1A53E73E5B400CE61B600667AFB95D3B69F798DBAE177C006043E2DB0B2",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "FaldrimAnvilmar",
+      "encounter_id": 3493,
+      "zone_id": 3065,
+      "matched_catalog_rows": [
+        {
+          "name": "Faldrim Anvilmar",
+          "dungeon": "The Hall of Thanes",
+          "npc_id": 261306,
+          "source_line": 11,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\HallOfThanes.lua",
+          "source_sha256": "1F9E3A81C9131E90F1A69532EFB81EB29DD9DF41240B497CE92DE669CC37F30A"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": false,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\HallofThanes\\FaldrimAnvilmar.lua",
+      "dbm_source_sha256": "72FA8D2587F0DFD8622589D4C5314E0B6ACE99DEED5E2A1A5257D1C30D32E392",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "Infurnus",
+      "encounter_id": 3495,
+      "zone_id": 3065,
+      "matched_catalog_rows": [
+        {
+          "name": "Magmatus",
+          "dungeon": "The Hall of Thanes",
+          "npc_id": 261316,
+          "source_line": 12,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\HallOfThanes.lua",
+          "source_sha256": "1F9E3A81C9131E90F1A69532EFB81EB29DD9DF41240B497CE92DE669CC37F30A"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": true,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\HallofThanes\\Infurnus.lua",
+      "dbm_source_sha256": "73C8C6521B08B1B838F84531198A936D5DD2FE38D6F349DB2C1D621BF35EC4A8",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "Plunder",
+      "encounter_id": 3494,
+      "zone_id": 3065,
+      "matched_catalog_rows": [
+        {
+          "name": "Plunder",
+          "dungeon": "The Hall of Thanes",
+          "npc_id": 261311,
+          "source_line": 13,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\HallOfThanes.lua",
+          "source_sha256": "1F9E3A81C9131E90F1A69532EFB81EB29DD9DF41240B497CE92DE669CC37F30A"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": false,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\HallofThanes\\Plunder.lua",
+      "dbm_source_sha256": "C5BD66DD649D1184F3D4B69D8EFCCC32DF050EE6F328B36432BF7A7B8843384C",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "Bjork",
+      "encounter_id": 3412,
+      "zone_id": 2999,
+      "matched_catalog_rows": [
+        {
+          "name": "Bjork",
+          "dungeon": "Ruins of Lordaeron",
+          "npc_id": 256097,
+          "source_line": 15,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\RuinsOfLordaeron.lua",
+          "source_sha256": "57283492506E0B9421D106E6DCCD656B73CAD6F37E2546DF2745F6C266E39BAA"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": false,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\RuinsofLordaeron\\Bjork.lua",
+      "dbm_source_sha256": "11D2F5E91446EDA472710A4FD4F3A7C00C5728C81E9E176FEC5716630298A345",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "LordaeronCaptain",
+      "encounter_id": 3408,
+      "zone_id": 2999,
+      "matched_catalog_rows": [
+        {
+          "name": "Lordaeron Captain",
+          "dungeon": "Ruins of Lordaeron",
+          "npc_id": 255699,
+          "source_line": 17,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\RuinsOfLordaeron.lua",
+          "source_sha256": "57283492506E0B9421D106E6DCCD656B73CAD6F37E2546DF2745F6C266E39BAA"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": false,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\RuinsofLordaeron\\LordaeronCaptain.lua",
+      "dbm_source_sha256": "804CFF8A27C716F71E9EB1918E1D56F1D01E23EA0130B9667DA358EA3A7258C2",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "Rathmael",
+      "encounter_id": 3354,
+      "zone_id": 2999,
+      "matched_catalog_rows": [
+        {
+          "name": "Rath'mael",
+          "dungeon": "Ruins of Lordaeron",
+          "npc_id": 250657,
+          "source_line": 16,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\RuinsOfLordaeron.lua",
+          "source_sha256": "57283492506E0B9421D106E6DCCD656B73CAD6F37E2546DF2745F6C266E39BAA"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": false,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\RuinsofLordaeron\\Rathmael.lua",
+      "dbm_source_sha256": "537F2E667A4C9FD160B4CD6EA21D44F9D47A8EFFAB591B6D03E71533B6C9B78D",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "TheAbandoned",
+      "encounter_id": 3357,
+      "zone_id": 2999,
+      "matched_catalog_rows": [
+        {
+          "name": "The Abandoned",
+          "dungeon": "Ruins of Lordaeron",
+          "npc_id": 250631,
+          "source_line": 14,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\RuinsOfLordaeron.lua",
+          "source_sha256": "57283492506E0B9421D106E6DCCD656B73CAD6F37E2546DF2745F6C266E39BAA"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": false,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\RuinsofLordaeron\\TheAbandoned.lua",
+      "dbm_source_sha256": "67413E27C64CBDC8198E8407A20238DBB2FFA92732FEE8D04884C42D96DEF3B1",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "TheButcher",
+      "encounter_id": 3355,
+      "zone_id": 2999,
+      "matched_catalog_rows": [
+        {
+          "name": "The Baron",
+          "dungeon": "Ruins of Lordaeron",
+          "npc_id": 250660,
+          "source_line": 12,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\RuinsOfLordaeron.lua",
+          "source_sha256": "57283492506E0B9421D106E6DCCD656B73CAD6F37E2546DF2745F6C266E39BAA"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": true,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\RuinsofLordaeron\\TheButcher.lua",
+      "dbm_source_sha256": "ED31338D8A0D8B0FE8F7ACB052B22CC914A93B69C3244B59F7609CB394464783",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "ViktortheVile",
+      "encounter_id": 3411,
+      "zone_id": 2999,
+      "matched_catalog_rows": [
+        {
+          "name": "Viktor the Vile",
+          "dungeon": "Ruins of Lordaeron",
+          "npc_id": 256035,
+          "source_line": 13,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\RuinsOfLordaeron.lua",
+          "source_sha256": "57283492506E0B9421D106E6DCCD656B73CAD6F37E2546DF2745F6C266E39BAA"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": false,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\RuinsofLordaeron\\ViktortheVile.lua",
+      "dbm_source_sha256": "C759A6D5DAD49DBD1CC791C4A6B70184AB36092305D0F3664E30FA881C441727",
+      "dbm_source_line": 7
+    },
+    {
+      "module": "Witherfang",
+      "encounter_id": 3353,
+      "zone_id": 2999,
+      "matched_catalog_rows": [
+        {
+          "name": "Witherfang",
+          "dungeon": "Ruins of Lordaeron",
+          "npc_id": 250483,
+          "source_line": 11,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\RuinsOfLordaeron.lua",
+          "source_sha256": "57283492506E0B9421D106E6DCCD656B73CAD6F37E2546DF2745F6C266E39BAA"
+        }
+      ],
+      "status": "static-id-match",
+      "name_discrepancy": false,
+      "mechanics_verified": false,
+      "dbm_source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\DBM-Party-Forever\\RuinsofLordaeron\\Witherfang.lua",
+      "dbm_source_sha256": "636AF7C0D98DC594B9FD453589CF107E69CEA811F2B8B51E1ABF3222455391F8",
+      "dbm_source_line": 7
+    }
+  ],
+  "duplicate_catalog_ids": [
+    {
+      "encounter_id": 2742,
+      "catalog_rows": [
+        {
+          "name": "Sneed's Shredder",
+          "dungeon": "The Deadmines",
+          "npc_id": 642,
+          "source_line": 11,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\Deadmines.lua"
+        },
+        {
+          "name": "Sneed",
+          "dungeon": "The Deadmines",
+          "npc_id": 643,
+          "source_line": 12,
+          "source_file": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\Deadmines.lua"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Matches are exact static encounter ID joins between installed addon source datasets, not observed live boss behavior.",
+    "NPC IDs are addon-catalog claims and are not activated as DBM creature triggers.",
+    "DBM modules are registration shells with no active ability events, timers or warnings.",
+    "Name mismatches may be aliases, naming drift or incorrect mappings; do not overwrite source names.",
+    "Source paths reflect local extraction and are retained for provenance, not publicly downloadable files."
+  ]
+}
