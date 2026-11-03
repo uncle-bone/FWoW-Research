@@ -1,0 +1,38 @@
+{
+  "repo": "https://github.com/uncle-bone/FWoW-Research",
+  "clientInstall": "C:\\Program Files (x86)\\World of Warcraft\\_forever_",
+  "clientFlavor": "wowf",
+  "clientVersion": "1.60.1.70707",
+  "observedBuild": "70707",
+  "scanDate": "2026-11-03",
+  "sourceDirectories": [
+    "Interface\\AddOns\\DBM-Party-Forever",
+    "Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons",
+    "Interface\\AddOns\\ForeverDungeonJournal\\Data",
+    "Interface\\AddOns\\AtlasLootClassic_DungeonsAndRaids",
+    "Interface\\AddOns\\ForeverQuest",
+    "Interface\\AddOns\\Questie",
+    "Interface\\AddOns\\DBM-Raids-Vanilla",
+    "Interface\\AddOns\\DBM-WorldEvents"
+  ],
+  "counts": {
+    "journalDungeonFiles": 35,
+    "namedNpcOrCatalogRows": 311,
+    "explicitNpcIDs": 279,
+    "explicitEncounterIDs": 201,
+    "modulesWithEncounterIDs": 24,
+    "modulesWithActiveTimersOrAbilityEvents": 0,
+    "actualCombatLogFiles": 0,
+    "closedDungeonsWithoutWings": [
+      "Blackmaw Hold",
+      "Krol'dok Stronghold"
+    ]
+  },
+  "notes": [
+    "Map identifiers in journal entrances are UI/overworld map pins, not confirmed instance map IDs.",
+    "Static addon records are not proof of live mechanics.",
+    "WTF SavedVariables were not read.",
+    "No game archives or executable files were copied."
+  ]
+}
+
