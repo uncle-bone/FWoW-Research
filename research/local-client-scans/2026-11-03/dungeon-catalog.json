@@ -1,0 +1,2739 @@
+[
+  {
+    "name": "Alcaz Prison",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\AlcazPrison.lua",
+    "sourceFileSha256": "F161CAE9E1423F9E218C91FF86FD806F62517615F3D0BC8D07B3E24DF5DE0B63",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": null,
+    "bosses": [
+      {
+        "name": "Blazeroar",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 11
+      }
+    ]
+  },
+  {
+    "name": "The Barrow Deeps",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\BarrowDeeps.lua",
+    "sourceFileSha256": "3D23BC64430B9DE8A2462E97F548505D29F5A5EB64E172036AB5E7EDD037706F",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 2482,
+    "bosses": [
+      {
+        "name": "Deepscar Matriarch",
+        "npcId": 259867,
+        "encounterIds": [],
+        "sourceLine": 13
+      },
+      {
+        "name": "Elder Tangleclaw",
+        "npcId": 259904,
+        "encounterIds": [],
+        "sourceLine": 14
+      },
+      {
+        "name": "Khalith the Dreadspinner",
+        "npcId": 259902,
+        "encounterIds": [],
+        "sourceLine": 15
+      },
+      {
+        "name": "Well of Sorrow",
+        "npcId": 259866,
+        "encounterIds": [],
+        "sourceLine": 16
+      },
+      {
+        "name": "Amethrax",
+        "npcId": 259907,
+        "encounterIds": [],
+        "sourceLine": 17
+      },
+      {
+        "name": "Del'lynar Songwood",
+        "npcId": 259911,
+        "encounterIds": [],
+        "sourceLine": 18
+      },
+      {
+        "name": "Ravus and Darlissa",
+        "npcId": 259905,
+        "encounterIds": [],
+        "sourceLine": 19
+      },
+      {
+        "name": "Sonya Darkhallow",
+        "npcId": 259912,
+        "encounterIds": [],
+        "sourceLine": 20
+      }
+    ]
+  },
+  {
+    "name": "Blackfathom Deeps",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\BlackfathomDeeps.lua",
+    "sourceFileSha256": "934DA6AB08FF1E304DB6B32B9F5C8ADB2D782AD2A454E0A688ACF6D948772714",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1440,
+    "bosses": [
+      {
+        "name": "Ghamoo-ra",
+        "npcId": 4887,
+        "encounterIds": [
+          2916,
+          2761
+        ],
+        "sourceLine": 10
+      },
+      {
+        "name": "Lady Sarevess",
+        "npcId": 4831,
+        "encounterIds": [
+          2915,
+          2762
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Gelihast",
+        "npcId": 6243,
+        "encounterIds": [
+          2914,
+          2763
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "Lorgus Jett",
+        "npcId": 12902,
+        "encounterIds": [
+          2913,
+          2764
+        ],
+        "sourceLine": 13
+      },
+      {
+        "name": "Baron Aquanis",
+        "npcId": 12876,
+        "encounterIds": [],
+        "sourceLine": 14
+      },
+      {
+        "name": "Twilight Lord Kelris",
+        "npcId": 4832,
+        "encounterIds": [
+          2911,
+          2766
+        ],
+        "sourceLine": 15
+      },
+      {
+        "name": "Old Serra'kis",
+        "npcId": 4830,
+        "encounterIds": [
+          2912,
+          2765
+        ],
+        "sourceLine": 16
+      },
+      {
+        "name": "Aku'mai",
+        "npcId": 4829,
+        "encounterIds": [
+          2910,
+          2767
+        ],
+        "sourceLine": 17
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 18
+      }
+    ]
+  },
+  {
+    "name": "Blackmaw Hold",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\BlackmawHold.lua",
+    "sourceFileSha256": "95011620EC40D1E5010F1EE5E7EB8C7A756F9960A5E5FB2F010405FD89CD5161",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": null,
+    "bosses": []
+  },
+  {
+    "name": "Blackrock Depths",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\BlackrockDepths.lua",
+    "sourceFileSha256": "53E3AFF5FE10C824554032292E697E0CFDA1A38A9FDB417A061C15B7824F6FFB",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1427,
+    "bosses": [
+      {
+        "name": "High Interrogator Gerstahn",
+        "npcId": 9018,
+        "encounterIds": [
+          227
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Lord Roccor",
+        "npcId": 9025,
+        "encounterIds": [
+          228
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "Houndmaster Grebmar",
+        "npcId": 9319,
+        "encounterIds": [
+          229
+        ],
+        "sourceLine": 13
+      },
+      {
+        "name": "Anub'shiah",
+        "npcId": 9031,
+        "encounterIds": [],
+        "sourceLine": 16
+      },
+      {
+        "name": "Eviscerator",
+        "npcId": 9029,
+        "encounterIds": [],
+        "sourceLine": 17
+      },
+      {
+        "name": "Gorosh the Dervish",
+        "npcId": 9027,
+        "encounterIds": [],
+        "sourceLine": 18
+      },
+      {
+        "name": "Grizzle",
+        "npcId": 9028,
+        "encounterIds": [],
+        "sourceLine": 19
+      },
+      {
+        "name": "Hedrum the Creeper",
+        "npcId": 9032,
+        "encounterIds": [],
+        "sourceLine": 20
+      },
+      {
+        "name": "Ok'thor the Breaker",
+        "npcId": 9030,
+        "encounterIds": [],
+        "sourceLine": 21
+      },
+      {
+        "name": "Pyromancer Loregrain",
+        "npcId": 9024,
+        "encounterIds": [
+          231
+        ],
+        "sourceLine": 24
+      },
+      {
+        "name": "Lord Incendius",
+        "npcId": 9017,
+        "encounterIds": [
+          232
+        ],
+        "sourceLine": 25
+      },
+      {
+        "name": "Warder Stilgiss",
+        "npcId": 9041,
+        "encounterIds": [
+          233
+        ],
+        "sourceLine": 26
+      },
+      {
+        "name": "Verek",
+        "npcId": 9042,
+        "encounterIds": [],
+        "sourceLine": 27
+      },
+      {
+        "name": "Fineous Darkvire",
+        "npcId": 9056,
+        "encounterIds": [
+          234
+        ],
+        "sourceLine": 28
+      },
+      {
+        "name": "Bael'Gar",
+        "npcId": 9016,
+        "encounterIds": [
+          235
+        ],
+        "sourceLine": 29
+      },
+      {
+        "name": "General Angerforge",
+        "npcId": 9033,
+        "encounterIds": [
+          236
+        ],
+        "sourceLine": 30
+      },
+      {
+        "name": "Golem Lord Argelmach",
+        "npcId": 8983,
+        "encounterIds": [
+          237
+        ],
+        "sourceLine": 31
+      },
+      {
+        "name": "Hurley Blackbreath",
+        "npcId": 9537,
+        "encounterIds": [
+          238
+        ],
+        "sourceLine": 32
+      },
+      {
+        "name": "Phalanx",
+        "npcId": 9502,
+        "encounterIds": [
+          239
+        ],
+        "sourceLine": 33
+      },
+      {
+        "name": "Ribbly Screwspigot",
+        "npcId": 9543,
+        "encounterIds": [
+          240
+        ],
+        "sourceLine": 34
+      },
+      {
+        "name": "Plugger Spazzring",
+        "npcId": 9499,
+        "encounterIds": [
+          241
+        ],
+        "sourceLine": 35
+      },
+      {
+        "name": "Ambassador Flamelash",
+        "npcId": 9156,
+        "encounterIds": [
+          242
+        ],
+        "sourceLine": 36
+      },
+      {
+        "name": "Magmus",
+        "npcId": 9938,
+        "encounterIds": [
+          244
+        ],
+        "sourceLine": 37
+      },
+      {
+        "name": "Emperor Dagran Thaurissan",
+        "npcId": 9019,
+        "encounterIds": [
+          2790
+        ],
+        "sourceLine": 38
+      },
+      {
+        "name": "Panzor the Invincible",
+        "npcId": 8923,
+        "encounterIds": [],
+        "sourceLine": 39
+      },
+      {
+        "name": "Princess Moira Bronzebeard",
+        "npcId": 8929,
+        "encounterIds": [
+          2789
+        ],
+        "sourceLine": 40
+      },
+      {
+        "name": "Secret Safe",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 41
+      },
+      {
+        "name": "Chest of The Seven",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 42
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 43
+      }
+    ]
+  },
+  {
+    "name": "City of Dalaran",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\Dalaran.lua",
+    "sourceFileSha256": "D4F3B90D8B46ECF5AEA04BB301C1266954D25A8ED594D47C151646F37C473007",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1416,
+    "bosses": [
+      {
+        "name": "Atrexis the Grave Knight",
+        "npcId": 247126,
+        "encounterIds": [
+          3311
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Arcane Anomaly",
+        "npcId": 245999,
+        "encounterIds": [
+          3298
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "Fel Ancient",
+        "npcId": 246003,
+        "encounterIds": [
+          3299
+        ],
+        "sourceLine": 13
+      },
+      {
+        "name": "Unstable Sentinel",
+        "npcId": 246017,
+        "encounterIds": [
+          3302
+        ],
+        "sourceLine": 14
+      },
+      {
+        "name": "Shade of the Archmage",
+        "npcId": 246020,
+        "encounterIds": [
+          3303
+        ],
+        "sourceLine": 15
+      },
+      {
+        "name": "Lyn the Ignored",
+        "npcId": 247032,
+        "encounterIds": [
+          3310
+        ],
+        "sourceLine": 16
+      },
+      {
+        "name": "Mana Wraith",
+        "npcId": 246931,
+        "encounterIds": [
+          3312
+        ],
+        "sourceLine": 17
+      },
+      {
+        "name": "Mana Devourer",
+        "npcId": 246008,
+        "encounterIds": [
+          3300
+        ],
+        "sourceLine": 18
+      },
+      {
+        "name": "Arcanic Enigma",
+        "npcId": 246016,
+        "encounterIds": [
+          3301
+        ],
+        "sourceLine": 19
+      }
+    ]
+  },
+  {
+    "name": "The Deadmines",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\Deadmines.lua",
+    "sourceFileSha256": "998B2A0EC2E0DF90B3C87523A9BA06108E495260B14F5875F047DD4DED04846E",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1436,
+    "bosses": [
+      {
+        "name": "Rhahk'Zor",
+        "npcId": 644,
+        "encounterIds": [
+          2741
+        ],
+        "sourceLine": 10
+      },
+      {
+        "name": "Sneed's Shredder",
+        "npcId": 642,
+        "encounterIds": [
+          2742
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Sneed",
+        "npcId": 643,
+        "encounterIds": [
+          2742
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "Gilnid",
+        "npcId": 1763,
+        "encounterIds": [
+          2743
+        ],
+        "sourceLine": 13
+      },
+      {
+        "name": "Mr. Smite",
+        "npcId": 646,
+        "encounterIds": [
+          2745
+        ],
+        "sourceLine": 14
+      },
+      {
+        "name": "Captain Greenskin",
+        "npcId": 647,
+        "encounterIds": [
+          2744
+        ],
+        "sourceLine": 15
+      },
+      {
+        "name": "Edwin VanCleef",
+        "npcId": 639,
+        "encounterIds": [
+          2747
+        ],
+        "sourceLine": 16
+      },
+      {
+        "name": "Cookie",
+        "npcId": 645,
+        "encounterIds": [
+          2746
+        ],
+        "sourceLine": 17
+      },
+      {
+        "name": "Miner Johnson",
+        "npcId": 3586,
+        "encounterIds": [
+          3676
+        ],
+        "sourceLine": 18
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 19
+      }
+    ]
+  },
+  {
+    "name": "Dire Maul",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\DireMaul.lua",
+    "sourceFileSha256": "8A6B329026F4261BF557CDC5D347B49AABF3AE60BF727E066D8991DDDE0C2E8A",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1444,
+    "bosses": [
+      {
+        "name": "Pusillin",
+        "npcId": 14354,
+        "encounterIds": [
+          2792
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Zevrim Thornhoof",
+        "npcId": 11490,
+        "encounterIds": [
+          343
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "Hydrospawn",
+        "npcId": 13280,
+        "encounterIds": [
+          344
+        ],
+        "sourceLine": 13
+      },
+      {
+        "name": "Lethtendris",
+        "npcId": 14327,
+        "encounterIds": [
+          345
+        ],
+        "sourceLine": 14
+      },
+      {
+        "name": "Alzzin the Wildshaper",
+        "npcId": 11492,
+        "encounterIds": [
+          346
+        ],
+        "sourceLine": 15
+      },
+      {
+        "name": "Isalien",
+        "npcId": 16097,
+        "encounterIds": [],
+        "sourceLine": 16
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 17
+      },
+      {
+        "name": "Tendris Warpwood",
+        "npcId": 11489,
+        "encounterIds": [
+          350
+        ],
+        "sourceLine": 20
+      },
+      {
+        "name": "Illyanna Ravenoak",
+        "npcId": 11488,
+        "encounterIds": [
+          347
+        ],
+        "sourceLine": 21
+      },
+      {
+        "name": "Magister Kalendris",
+        "npcId": 11487,
+        "encounterIds": [
+          348
+        ],
+        "sourceLine": 22
+      },
+      {
+        "name": "Immol'thar",
+        "npcId": 11496,
+        "encounterIds": [
+          349
+        ],
+        "sourceLine": 23
+      },
+      {
+        "name": "Prince Tortheldrin",
+        "npcId": 11486,
+        "encounterIds": [
+          361
+        ],
+        "sourceLine": 24
+      },
+      {
+        "name": "Tsu'zee",
+        "npcId": 11467,
+        "encounterIds": [
+          2794
+        ],
+        "sourceLine": 25
+      },
+      {
+        "name": "Lord Hel'nurath",
+        "npcId": 14506,
+        "encounterIds": [
+          2793
+        ],
+        "sourceLine": 26
+      },
+      {
+        "name": "Revanchion",
+        "npcId": 14690,
+        "encounterIds": [],
+        "sourceLine": 27
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 28
+      },
+      {
+        "name": "Guard Mol'dar",
+        "npcId": 14326,
+        "encounterIds": [
+          362
+        ],
+        "sourceLine": 31
+      },
+      {
+        "name": "Stomper Kreeg",
+        "npcId": 14322,
+        "encounterIds": [
+          363
+        ],
+        "sourceLine": 32
+      },
+      {
+        "name": "Guard Fengus",
+        "npcId": 14321,
+        "encounterIds": [
+          364
+        ],
+        "sourceLine": 33
+      },
+      {
+        "name": "Guard Slip'kik",
+        "npcId": 14323,
+        "encounterIds": [
+          365
+        ],
+        "sourceLine": 34
+      },
+      {
+        "name": "Captain Kromcrush",
+        "npcId": 14325,
+        "encounterIds": [
+          366
+        ],
+        "sourceLine": 35
+      },
+      {
+        "name": "King Gordok",
+        "npcId": 11501,
+        "encounterIds": [
+          368
+        ],
+        "sourceLine": 36
+      },
+      {
+        "name": "Cho'Rush the Observer",
+        "npcId": 14324,
+        "encounterIds": [
+          367
+        ],
+        "sourceLine": 37
+      },
+      {
+        "name": "Gordok Tribute",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 38
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 39
+      }
+    ]
+  },
+  {
+    "name": "The Drowned City",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\DrownedCity.lua",
+    "sourceFileSha256": "1E93D12BFC4D2C92C5DBC7DD35DD30C1B3A75A9B818C7FD289629FBC3E1E9382",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1434,
+    "bosses": [
+      {
+        "name": "Zul'Alai",
+        "npcId": 270882,
+        "encounterIds": [],
+        "sourceLine": 12
+      },
+      {
+        "name": "Var'Taka",
+        "npcId": 270883,
+        "encounterIds": [],
+        "sourceLine": 13
+      },
+      {
+        "name": "Captain Dreadrise",
+        "npcId": 270884,
+        "encounterIds": [],
+        "sourceLine": 14
+      },
+      {
+        "name": "Deathless Marrow",
+        "npcId": 270885,
+        "encounterIds": [],
+        "sourceLine": 15
+      },
+      {
+        "name": "Min'loth the Serpent",
+        "npcId": 270886,
+        "encounterIds": [],
+        "sourceLine": 16
+      }
+    ]
+  },
+  {
+    "name": "Excavation Site: Wetlands",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\ExcavationSite.lua",
+    "sourceFileSha256": "3A19F21ACC47677DB2A764F098A4FB0E1344668F3918AE7F73AC85345AB312C7",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1437,
+    "bosses": [
+      {
+        "name": "Saltspine",
+        "npcId": 260322,
+        "encounterIds": [
+          3480
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Shadetooth",
+        "npcId": 260325,
+        "encounterIds": [
+          3481
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "Highland Horror",
+        "npcId": 260808,
+        "encounterIds": [
+          3644
+        ],
+        "sourceLine": 13
+      },
+      {
+        "name": "Relic Guardian",
+        "npcId": 260326,
+        "encounterIds": [
+          3482
+        ],
+        "sourceLine": 14
+      }
+    ]
+  },
+  {
+    "name": "Gnomeregan",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\Gnomeregan.lua",
+    "sourceFileSha256": "B72B654168F1335C30E0B3548B0B726C59BAE1FA8D901ABD7531F66FFD3ABE3D",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1426,
+    "bosses": [
+      {
+        "name": "Grubbis",
+        "npcId": 7361,
+        "encounterIds": [
+          2768
+        ],
+        "sourceLine": 10
+      },
+      {
+        "name": "Viscous Fallout",
+        "npcId": 7079,
+        "encounterIds": [
+          2769
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Electrocutioner 6000",
+        "npcId": 6235,
+        "encounterIds": [
+          2770
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "Crowd Pummeler 9-60",
+        "npcId": 6229,
+        "encounterIds": [
+          2771
+        ],
+        "sourceLine": 13
+      },
+      {
+        "name": "Mekgineer Thermaplugg",
+        "npcId": 7800,
+        "encounterIds": [
+          2772
+        ],
+        "sourceLine": 14
+      },
+      {
+        "name": "Dark Iron Ambassador",
+        "npcId": 6228,
+        "encounterIds": [],
+        "sourceLine": 15
+      },
+      {
+        "name": "Techbot",
+        "npcId": 6231,
+        "encounterIds": [],
+        "sourceLine": 16
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 17
+      }
+    ]
+  },
+  {
+    "name": "The Hall of Thanes",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\HallOfThanes.lua",
+    "sourceFileSha256": "1F9E3A81C9131E90F1A69532EFB81EB29DD9DF41240B497CE92DE669CC37F30A",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1455,
+    "bosses": [
+      {
+        "name": "Faldrim Anvilmar",
+        "npcId": 261306,
+        "encounterIds": [
+          3493
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Magmatus",
+        "npcId": 261316,
+        "encounterIds": [
+          3495
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "Plunder",
+        "npcId": 261311,
+        "encounterIds": [
+          3494
+        ],
+        "sourceLine": 13
+      },
+      {
+        "name": "Durgen Dirgehammer",
+        "npcId": 261319,
+        "encounterIds": [
+          3496
+        ],
+        "sourceLine": 14
+      }
+    ]
+  },
+  {
+    "name": "Hyjal Summit",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\HyjalSummit.lua",
+    "sourceFileSha256": "EB9D8FE34DC102FE6A04A82BC6D5BA70BAEB2A020407E65C77432D49E59882FC",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 2482,
+    "bosses": [
+      {
+        "name": "Bandalar",
+        "npcId": 249790,
+        "encounterIds": [],
+        "sourceLine": 13
+      },
+      {
+        "name": "Ancient of Decay",
+        "npcId": 250076,
+        "encounterIds": [],
+        "sourceLine": 14
+      },
+      {
+        "name": "Time-Lost Battalion",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 15
+      },
+      {
+        "name": "Sylvestris Dusksong",
+        "npcId": 257638,
+        "encounterIds": [],
+        "sourceLine": 16
+      },
+      {
+        "name": "Old Gloomlurker",
+        "npcId": 250070,
+        "encounterIds": [],
+        "sourceLine": 17
+      },
+      {
+        "name": "Gharalis the Abyssal",
+        "npcId": 250075,
+        "encounterIds": [],
+        "sourceLine": 18
+      },
+      {
+        "name": "Kathris the Haunted",
+        "npcId": 250077,
+        "encounterIds": [],
+        "sourceLine": 19
+      },
+      {
+        "name": "Anara Chillwind",
+        "npcId": 249787,
+        "encounterIds": [],
+        "sourceLine": 20
+      },
+      {
+        "name": "Elder Minderel",
+        "npcId": 253861,
+        "encounterIds": [],
+        "sourceLine": 21
+      },
+      {
+        "name": "Tracker Stillwind",
+        "npcId": 250074,
+        "encounterIds": [],
+        "sourceLine": 22
+      },
+      {
+        "name": "Council of Thorns",
+        "npcId": 250082,
+        "encounterIds": [],
+        "sourceLine": 23
+      },
+      {
+        "name": "Nythus the Dreambound",
+        "npcId": 250078,
+        "encounterIds": [],
+        "sourceLine": 24
+      },
+      {
+        "name": "The Wild King",
+        "npcId": 250079,
+        "encounterIds": [],
+        "sourceLine": 25
+      }
+    ]
+  },
+  {
+    "name": "Krol'dok Stronghold",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\Kroldok.lua",
+    "sourceFileSha256": "9D1DEAC1C5CF513B0BC01736EDC54471F1F59FF63DE4646C7B3D1F6BBD95D1AD",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": null,
+    "bosses": []
+  },
+  {
+    "name": "Lower Blackrock Spire",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\LowerBlackrockSpire.lua",
+    "sourceFileSha256": "83C915C1A70B01A21CFED55E1B0B4D6B9759DD3DF20593552CCDBF5AAF2683AB",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1427,
+    "bosses": [
+      {
+        "name": "Highlord Omokk",
+        "npcId": 9196,
+        "encounterIds": [
+          267
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Shadow Hunter Vosh'gajin",
+        "npcId": 9236,
+        "encounterIds": [
+          268
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "War Master Voone",
+        "npcId": 9237,
+        "encounterIds": [
+          269
+        ],
+        "sourceLine": 13
+      },
+      {
+        "name": "Mother Smolderweb",
+        "npcId": 10596,
+        "encounterIds": [
+          270
+        ],
+        "sourceLine": 14
+      },
+      {
+        "name": "Urok Doomhowl",
+        "npcId": 10584,
+        "encounterIds": [
+          271
+        ],
+        "sourceLine": 15
+      },
+      {
+        "name": "Quartermaster Zigris",
+        "npcId": 9736,
+        "encounterIds": [
+          272
+        ],
+        "sourceLine": 16
+      },
+      {
+        "name": "Gizrul the Slavener",
+        "npcId": 10268,
+        "encounterIds": [
+          273
+        ],
+        "sourceLine": 17
+      },
+      {
+        "name": "Halycon",
+        "npcId": 10220,
+        "encounterIds": [
+          274
+        ],
+        "sourceLine": 18
+      },
+      {
+        "name": "Overlord Wyrmthalak",
+        "npcId": 9568,
+        "encounterIds": [
+          275
+        ],
+        "sourceLine": 19
+      },
+      {
+        "name": "Spirestone Butcher",
+        "npcId": 9219,
+        "encounterIds": [],
+        "sourceLine": 20
+      },
+      {
+        "name": "Spirestone Battle Lord",
+        "npcId": 9218,
+        "encounterIds": [],
+        "sourceLine": 21
+      },
+      {
+        "name": "Spirestone Lord Magus",
+        "npcId": 9217,
+        "encounterIds": [],
+        "sourceLine": 22
+      },
+      {
+        "name": "Bannok Grimaxe",
+        "npcId": 9596,
+        "encounterIds": [],
+        "sourceLine": 23
+      },
+      {
+        "name": "Crystal Fang",
+        "npcId": 10376,
+        "encounterIds": [],
+        "sourceLine": 24
+      },
+      {
+        "name": "Ghok Bashguud",
+        "npcId": 9718,
+        "encounterIds": [],
+        "sourceLine": 25
+      },
+      {
+        "name": "Burning Felguard",
+        "npcId": 10263,
+        "encounterIds": [],
+        "sourceLine": 26
+      },
+      {
+        "name": "Mor Grayhoof",
+        "npcId": 16080,
+        "encounterIds": [],
+        "sourceLine": 27
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 28
+      }
+    ]
+  },
+  {
+    "name": "Maraudon",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\Maraudon.lua",
+    "sourceFileSha256": "CB2134CA107CA3C886C8F559093959549B7416F689BD2D4B958879CAD0DB53C8",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1443,
+    "bosses": [
+      {
+        "name": "Noxxion",
+        "npcId": 13282,
+        "encounterIds": [
+          422
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Razorlash",
+        "npcId": 12258,
+        "encounterIds": [
+          423
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "Lord Vyletongue",
+        "npcId": 12236,
+        "encounterIds": [
+          424
+        ],
+        "sourceLine": 13
+      },
+      {
+        "name": "Celebras the Cursed",
+        "npcId": 12225,
+        "encounterIds": [
+          425
+        ],
+        "sourceLine": 14
+      },
+      {
+        "name": "Landslide",
+        "npcId": 12203,
+        "encounterIds": [
+          426
+        ],
+        "sourceLine": 15
+      },
+      {
+        "name": "Tinkerer Gizlock",
+        "npcId": 13601,
+        "encounterIds": [
+          427
+        ],
+        "sourceLine": 16
+      },
+      {
+        "name": "Rotgrip",
+        "npcId": 13596,
+        "encounterIds": [
+          428
+        ],
+        "sourceLine": 17
+      },
+      {
+        "name": "Princess Theradras",
+        "npcId": 12201,
+        "encounterIds": [
+          429
+        ],
+        "sourceLine": 18
+      },
+      {
+        "name": "Meshlok the Harvester",
+        "npcId": 12237,
+        "encounterIds": [],
+        "sourceLine": 19
+      }
+    ]
+  },
+  {
+    "name": "Onyxia's Lair",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\OnyxiasLair.lua",
+    "sourceFileSha256": "6FCB435D552903E241085BC31036CD54FE72F976DAAD0636F561D271176893F0",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1445,
+    "bosses": [
+      {
+        "name": "Onyxia",
+        "npcId": 10184,
+        "encounterIds": [
+          1084
+        ],
+        "sourceLine": 12
+      }
+    ]
+  },
+  {
+    "name": "Ragefire Chasm",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\RagefireChasm.lua",
+    "sourceFileSha256": "AFCC00752F55B295B66AF0A596E38405D5ABFBB7AFC66EBCB2F2D9EE9A4D9354",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1454,
+    "bosses": [
+      {
+        "name": "Oggleflint",
+        "npcId": 11517,
+        "encounterIds": [
+          2732
+        ],
+        "sourceLine": 10
+      },
+      {
+        "name": "Taragaman the Hungerer",
+        "npcId": 11520,
+        "encounterIds": [
+          2733
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Jergosh the Invoker",
+        "npcId": 11518,
+        "encounterIds": [
+          2734
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "Bazzalan",
+        "npcId": 11519,
+        "encounterIds": [
+          2735
+        ],
+        "sourceLine": 13
+      }
+    ]
+  },
+  {
+    "name": "Razorfen Downs",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\RazorfenDowns.lua",
+    "sourceFileSha256": "B6D1A9B91F4C1EFEC644D9791557E7A65A092D6ED6B922A7A460EA32CB84FD97",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1413,
+    "bosses": [
+      {
+        "name": "Tuten'kash",
+        "npcId": 7355,
+        "encounterIds": [
+          2780
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Mordresh Fire Eye",
+        "npcId": 7357,
+        "encounterIds": [
+          2782
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "Glutton",
+        "npcId": 8567,
+        "encounterIds": [
+          2784
+        ],
+        "sourceLine": 13
+      },
+      {
+        "name": "Amnennar the Coldbringer",
+        "npcId": 7358,
+        "encounterIds": [
+          2785
+        ],
+        "sourceLine": 14
+      },
+      {
+        "name": "Ragglesnout",
+        "npcId": 7354,
+        "encounterIds": [
+          2783
+        ],
+        "sourceLine": 15
+      },
+      {
+        "name": "Plaguemaw the Rotting",
+        "npcId": 7356,
+        "encounterIds": [
+          2781
+        ],
+        "sourceLine": 16
+      },
+      {
+        "name": "Lady Falther'ess",
+        "npcId": 14686,
+        "encounterIds": [],
+        "sourceLine": 17
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 18
+      }
+    ]
+  },
+  {
+    "name": "Razorfen Kraul",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\RazorfenKraul.lua",
+    "sourceFileSha256": "CC59760193165FAE2E9C752B37A1C5BE29C59D52573323E8E68B525F549AF3DF",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1413,
+    "bosses": [
+      {
+        "name": "Aggem Thorncurse",
+        "npcId": 4424,
+        "encounterIds": [
+          2774
+        ],
+        "sourceLine": 10
+      },
+      {
+        "name": "Death Speaker Jargba",
+        "npcId": 4428,
+        "encounterIds": [
+          2775
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Overlord Ramtusk",
+        "npcId": 4420,
+        "encounterIds": [
+          2776
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "Agathelos the Raging",
+        "npcId": 4422,
+        "encounterIds": [
+          2777
+        ],
+        "sourceLine": 13
+      },
+      {
+        "name": "Charlga Razorflank",
+        "npcId": 4421,
+        "encounterIds": [
+          2778
+        ],
+        "sourceLine": 14
+      },
+      {
+        "name": "Blind Hunter",
+        "npcId": 4425,
+        "encounterIds": [],
+        "sourceLine": 15
+      },
+      {
+        "name": "Earthcaller Halmgar",
+        "npcId": 4842,
+        "encounterIds": [],
+        "sourceLine": 16
+      },
+      {
+        "name": "Razorfen Spearhide",
+        "npcId": 4438,
+        "encounterIds": [],
+        "sourceLine": 17
+      },
+      {
+        "name": "Roogug",
+        "npcId": 6168,
+        "encounterIds": [
+          2773
+        ],
+        "sourceLine": 18
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 19
+      }
+    ]
+  },
+  {
+    "name": "Ruins of Lordaeron",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\RuinsOfLordaeron.lua",
+    "sourceFileSha256": "57283492506E0B9421D106E6DCCD656B73CAD6F37E2546DF2745F6C266E39BAA",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1458,
+    "bosses": [
+      {
+        "name": "Witherfang",
+        "npcId": 250483,
+        "encounterIds": [
+          3353
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "The Baron",
+        "npcId": 250660,
+        "encounterIds": [
+          3355
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "Viktor the Vile",
+        "npcId": 256035,
+        "encounterIds": [
+          3411
+        ],
+        "sourceLine": 13
+      },
+      {
+        "name": "The Abandoned",
+        "npcId": 250631,
+        "encounterIds": [
+          3357
+        ],
+        "sourceLine": 14
+      },
+      {
+        "name": "Bjork",
+        "npcId": 256097,
+        "encounterIds": [
+          3412
+        ],
+        "sourceLine": 15
+      },
+      {
+        "name": "Rath'mael",
+        "npcId": 250657,
+        "encounterIds": [
+          3354
+        ],
+        "sourceLine": 16
+      },
+      {
+        "name": "Lordaeron Captain",
+        "npcId": 255699,
+        "encounterIds": [
+          3408
+        ],
+        "sourceLine": 17
+      }
+    ]
+  },
+  {
+    "name": "Scarlet Monastery - Armory",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\ScarletMonasteryArmory.lua",
+    "sourceFileSha256": "DA43939900527F220FCD483915611EEDFD70D68AB9099D54B7C860CFC9469FA9",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1420,
+    "bosses": [
+      {
+        "name": "Herod",
+        "npcId": 3975,
+        "encounterIds": [
+          448
+        ],
+        "sourceLine": 10
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 11
+      }
+    ]
+  },
+  {
+    "name": "Scarlet Monastery - Cathedral",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\ScarletMonasteryCathedral.lua",
+    "sourceFileSha256": "DF2FB10378BA09D40F8BE4FE8A6BB8BADCCEC1FE10ABAAA3C2D7C6D640EFE1F4",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1420,
+    "bosses": [
+      {
+        "name": "High Inquisitor Fairbanks",
+        "npcId": 4542,
+        "encounterIds": [
+          449
+        ],
+        "sourceLine": 10
+      },
+      {
+        "name": "Scarlet Commander Mograine",
+        "npcId": 3976,
+        "encounterIds": [],
+        "sourceLine": 11
+      },
+      {
+        "name": "High Inquisitor Whitemane",
+        "npcId": 3977,
+        "encounterIds": [
+          450
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 13
+      }
+    ]
+  },
+  {
+    "name": "Scarlet Monastery - Graveyard",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\ScarletMonasteryGraveyard.lua",
+    "sourceFileSha256": "684CD79EC5135B349C21218526642E689B2F3F6DAABDD3E98D17229626485EE3",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1420,
+    "bosses": [
+      {
+        "name": "Interrogator Vishas",
+        "npcId": 3983,
+        "encounterIds": [
+          444
+        ],
+        "sourceLine": 10
+      },
+      {
+        "name": "Bloodmage Thalnos",
+        "npcId": 4543,
+        "encounterIds": [
+          2779
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Azshir the Sleepless",
+        "npcId": 6490,
+        "encounterIds": [],
+        "sourceLine": 12
+      },
+      {
+        "name": "Fallen Champion",
+        "npcId": 6488,
+        "encounterIds": [],
+        "sourceLine": 13
+      },
+      {
+        "name": "Ironspine",
+        "npcId": 6489,
+        "encounterIds": [],
+        "sourceLine": 14
+      },
+      {
+        "name": "Scorn",
+        "npcId": 14693,
+        "encounterIds": [],
+        "sourceLine": 15
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 16
+      }
+    ]
+  },
+  {
+    "name": "Scarlet Monastery - Library",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\ScarletMonasteryLibrary.lua",
+    "sourceFileSha256": "064F74967235D6C010CDA9E73D7D19C735B8FB37405E351BE353C67C30810F48",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1420,
+    "bosses": [
+      {
+        "name": "Houndmaster Loksey",
+        "npcId": 3974,
+        "encounterIds": [
+          446
+        ],
+        "sourceLine": 10
+      },
+      {
+        "name": "Arcanist Doan",
+        "npcId": 6487,
+        "encounterIds": [
+          447
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 12
+      }
+    ]
+  },
+  {
+    "name": "Scholomance",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\Scholomance.lua",
+    "sourceFileSha256": "F2CD11E121B310C73D03EDF24314786D651DFCA93BA86F1FC6A54876D230F5A2",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1422,
+    "bosses": [
+      {
+        "name": "Kirtonos the Herald",
+        "npcId": 10506,
+        "encounterIds": [
+          2805
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Jandice Barov",
+        "npcId": 10503,
+        "encounterIds": [
+          2804
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "Rattlegore",
+        "npcId": 11622,
+        "encounterIds": [
+          2811
+        ],
+        "sourceLine": 13
+      },
+      {
+        "name": "Marduk Blackpool",
+        "npcId": 10433,
+        "encounterIds": [
+          2809
+        ],
+        "sourceLine": 14
+      },
+      {
+        "name": "Vectus",
+        "npcId": 10432,
+        "encounterIds": [
+          2813
+        ],
+        "sourceLine": 15
+      },
+      {
+        "name": "Ras Frostwhisper",
+        "npcId": 10508,
+        "encounterIds": [
+          2810
+        ],
+        "sourceLine": 16
+      },
+      {
+        "name": "Instructor Malicia",
+        "npcId": 10505,
+        "encounterIds": [
+          2803
+        ],
+        "sourceLine": 17
+      },
+      {
+        "name": "Doctor Theolen Krastinov",
+        "npcId": 11261,
+        "encounterIds": [
+          2802
+        ],
+        "sourceLine": 18
+      },
+      {
+        "name": "Lorekeeper Polkelt",
+        "npcId": 10901,
+        "encounterIds": [
+          2808
+        ],
+        "sourceLine": 19
+      },
+      {
+        "name": "The Ravenian",
+        "npcId": 10507,
+        "encounterIds": [
+          2812
+        ],
+        "sourceLine": 20
+      },
+      {
+        "name": "Lord Alexei Barov",
+        "npcId": 10504,
+        "encounterIds": [
+          2807
+        ],
+        "sourceLine": 21
+      },
+      {
+        "name": "Lady Illucia Barov",
+        "npcId": 10502,
+        "encounterIds": [
+          2806
+        ],
+        "sourceLine": 22
+      },
+      {
+        "name": "Darkmaster Gandling",
+        "npcId": 1853,
+        "encounterIds": [
+          2801
+        ],
+        "sourceLine": 23
+      },
+      {
+        "name": "Lord Blackwood",
+        "npcId": 14695,
+        "encounterIds": [],
+        "sourceLine": 24
+      },
+      {
+        "name": "Kormok",
+        "npcId": 16118,
+        "encounterIds": [
+          3055
+        ],
+        "sourceLine": 25
+      },
+      {
+        "name": "Death Knight Darkreaver",
+        "npcId": 14516,
+        "encounterIds": [],
+        "sourceLine": 26
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 27
+      }
+    ]
+  },
+  {
+    "name": "Shadowfang Keep",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\ShadowfangKeep.lua",
+    "sourceFileSha256": "23F072B27E6C7BB262C2FC9ECB425867FB3AA9371DB7F7C579D00C87E73E0869",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1421,
+    "bosses": [
+      {
+        "name": "Rethilgore",
+        "npcId": 3914,
+        "encounterIds": [
+          2748
+        ],
+        "sourceLine": 10
+      },
+      {
+        "name": "Razorclaw the Butcher",
+        "npcId": 3886,
+        "encounterIds": [
+          2749
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Baron Silverlaine",
+        "npcId": 3887,
+        "encounterIds": [
+          2750
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "Commander Springvale",
+        "npcId": 4278,
+        "encounterIds": [
+          2751
+        ],
+        "sourceLine": 13
+      },
+      {
+        "name": "Odo the Blindwatcher",
+        "npcId": 4279,
+        "encounterIds": [
+          2752
+        ],
+        "sourceLine": 14
+      },
+      {
+        "name": "Fenrus the Devourer",
+        "npcId": 4274,
+        "encounterIds": [
+          2753
+        ],
+        "sourceLine": 15
+      },
+      {
+        "name": "Wolf Master Nandos",
+        "npcId": 3927,
+        "encounterIds": [
+          2754
+        ],
+        "sourceLine": 16
+      },
+      {
+        "name": "Archmage Arugal",
+        "npcId": 4275,
+        "encounterIds": [
+          2755
+        ],
+        "sourceLine": 17
+      },
+      {
+        "name": "Deathsworn Captain",
+        "npcId": 3872,
+        "encounterIds": [],
+        "sourceLine": 18
+      },
+      {
+        "name": "Fel Steed",
+        "npcId": 3864,
+        "encounterIds": [],
+        "sourceLine": 19
+      },
+      {
+        "name": "Sever",
+        "npcId": 14682,
+        "encounterIds": [],
+        "sourceLine": 20
+      },
+      {
+        "name": "Arugal's Voidwalker",
+        "npcId": 4627,
+        "encounterIds": [],
+        "sourceLine": 21
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 22
+      }
+    ]
+  },
+  {
+    "name": "Shaper's Terrace",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\ShapersTerrace.lua",
+    "sourceFileSha256": "5327B6FB578998AD239485E80A322DDD204341C9FAA99A3C2C8A4411DD0083FA",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1441,
+    "bosses": [
+      {
+        "name": "Nanaya",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 12
+      },
+      {
+        "name": "Snowtalon",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 13
+      },
+      {
+        "name": "Cinder",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 14
+      },
+      {
+        "name": "Bolt",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 15
+      }
+    ]
+  },
+  {
+    "name": "The Stockade",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\Stockade.lua",
+    "sourceFileSha256": "A57C4F912C0F26EEA86E35956CF8869D5004BA9BACD769F4D571BCE54BC3A566",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1453,
+    "bosses": [
+      {
+        "name": "Targorr the Dread",
+        "npcId": 1696,
+        "encounterIds": [
+          2756
+        ],
+        "sourceLine": 10
+      },
+      {
+        "name": "Kam Deepfury",
+        "npcId": 1666,
+        "encounterIds": [
+          2757
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Hamhock",
+        "npcId": 1717,
+        "encounterIds": [
+          2758
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "Bazil Thredd",
+        "npcId": 1716,
+        "encounterIds": [
+          2760
+        ],
+        "sourceLine": 13
+      },
+      {
+        "name": "Dextren Ward",
+        "npcId": 1663,
+        "encounterIds": [
+          2759
+        ],
+        "sourceLine": 14
+      },
+      {
+        "name": "Bruegal Ironknuckle",
+        "npcId": 1720,
+        "encounterIds": [],
+        "sourceLine": 15
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 16
+      }
+    ]
+  },
+  {
+    "name": "Stratholme",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\Stratholme.lua",
+    "sourceFileSha256": "EB0FB33ED12732DD8E374100B8E6E39610AED172E8B51622E065784D0895C610",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1423,
+    "bosses": [
+      {
+        "name": "Timmy the Cruel",
+        "npcId": 10808,
+        "encounterIds": [
+          474
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "The Unforgiven",
+        "npcId": 10516,
+        "encounterIds": [
+          472
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "Hearthsinger Forresten",
+        "npcId": 10558,
+        "encounterIds": [
+          473
+        ],
+        "sourceLine": 13
+      },
+      {
+        "name": "Cannon Master Willey",
+        "npcId": 10997,
+        "encounterIds": [
+          475
+        ],
+        "sourceLine": 14
+      },
+      {
+        "name": "Archivist Galford",
+        "npcId": 10811,
+        "encounterIds": [
+          477
+        ],
+        "sourceLine": 15
+      },
+      {
+        "name": "Balnazzar",
+        "npcId": 10813,
+        "encounterIds": [
+          478
+        ],
+        "sourceLine": 16
+      },
+      {
+        "name": "Skul",
+        "npcId": 10393,
+        "encounterIds": [
+          2799
+        ],
+        "sourceLine": 17
+      },
+      {
+        "name": "Stonespine",
+        "npcId": 10809,
+        "encounterIds": [
+          2800
+        ],
+        "sourceLine": 18
+      },
+      {
+        "name": "Postmaster Malown",
+        "npcId": 11143,
+        "encounterIds": [
+          2798
+        ],
+        "sourceLine": 19
+      },
+      {
+        "name": "Grand Crusader Dathrohan",
+        "npcId": 10812,
+        "encounterIds": [],
+        "sourceLine": 20
+      },
+      {
+        "name": "Balzaphon",
+        "npcId": 14684,
+        "encounterIds": [],
+        "sourceLine": 21
+      },
+      {
+        "name": "Magistrate Barthilas",
+        "npcId": 10435,
+        "encounterIds": [
+          482
+        ],
+        "sourceLine": 24
+      },
+      {
+        "name": "Baroness Anastari",
+        "npcId": 10436,
+        "encounterIds": [
+          479
+        ],
+        "sourceLine": 25
+      },
+      {
+        "name": "Nerub'enkan",
+        "npcId": 10437,
+        "encounterIds": [
+          480
+        ],
+        "sourceLine": 26
+      },
+      {
+        "name": "Maleki the Pallid",
+        "npcId": 10438,
+        "encounterIds": [
+          481
+        ],
+        "sourceLine": 27
+      },
+      {
+        "name": "Ramstein the Gorger",
+        "npcId": 10439,
+        "encounterIds": [
+          483
+        ],
+        "sourceLine": 28
+      },
+      {
+        "name": "Baron Rivendare",
+        "npcId": 10440,
+        "encounterIds": [
+          484
+        ],
+        "sourceLine": 29
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 30
+      }
+    ]
+  },
+  {
+    "name": "Sunken Temple",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\SunkenTemple.lua",
+    "sourceFileSha256": "8A3B2A430B22715D0581A979804A259B6B918AD70FE7A9154A40DCC633724345",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1435,
+    "bosses": [
+      {
+        "name": "Atal'alarion",
+        "npcId": 8580,
+        "encounterIds": [
+          3582,
+          2814
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Dreamscythe",
+        "npcId": 5721,
+        "encounterIds": [
+          3588,
+          486
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "Weaver",
+        "npcId": 5720,
+        "encounterIds": [
+          3587,
+          487
+        ],
+        "sourceLine": 13
+      },
+      {
+        "name": "Jammal'an the Prophet",
+        "npcId": 5710,
+        "encounterIds": [
+          3589,
+          488
+        ],
+        "sourceLine": 14
+      },
+      {
+        "name": "Ogom the Wretched",
+        "npcId": 5711,
+        "encounterIds": [],
+        "sourceLine": 15
+      },
+      {
+        "name": "Morphaz",
+        "npcId": 5719,
+        "encounterIds": [
+          3586,
+          490
+        ],
+        "sourceLine": 16
+      },
+      {
+        "name": "Hazzas",
+        "npcId": 5722,
+        "encounterIds": [
+          3585,
+          491
+        ],
+        "sourceLine": 17
+      },
+      {
+        "name": "Shade of Eranikus",
+        "npcId": 5709,
+        "encounterIds": [
+          3584,
+          493
+        ],
+        "sourceLine": 18
+      },
+      {
+        "name": "Avatar of Hakkar",
+        "npcId": 8443,
+        "encounterIds": [
+          3583,
+          492
+        ],
+        "sourceLine": 19
+      },
+      {
+        "name": "Spawn of Hakkar",
+        "npcId": 5708,
+        "encounterIds": [],
+        "sourceLine": 20
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 21
+      }
+    ]
+  },
+  {
+    "name": "Uldaman",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\Uldaman.lua",
+    "sourceFileSha256": "E176902BEC0FBDB47CD75C2068C36E7C4C4A9F29803A4495DC7DB8546EC8EEE3",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1418,
+    "bosses": [
+      {
+        "name": "Revelosh",
+        "npcId": 6910,
+        "encounterIds": [
+          547
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Ironaya",
+        "npcId": 7228,
+        "encounterIds": [
+          549
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "Obsidian Sentinel",
+        "npcId": 7023,
+        "encounterIds": [
+          1887
+        ],
+        "sourceLine": 13
+      },
+      {
+        "name": "Ancient Stone Keeper",
+        "npcId": 7206,
+        "encounterIds": [
+          551
+        ],
+        "sourceLine": 14
+      },
+      {
+        "name": "Galgann Firehammer",
+        "npcId": 7291,
+        "encounterIds": [
+          552
+        ],
+        "sourceLine": 15
+      },
+      {
+        "name": "Grimlok",
+        "npcId": 4854,
+        "encounterIds": [
+          553
+        ],
+        "sourceLine": 16
+      },
+      {
+        "name": "Archaedas",
+        "npcId": 2748,
+        "encounterIds": [
+          554
+        ],
+        "sourceLine": 17
+      },
+      {
+        "name": "Baelog",
+        "npcId": 6906,
+        "encounterIds": [],
+        "sourceLine": 18
+      },
+      {
+        "name": "Eric \\",
+        "npcId": 6907,
+        "encounterIds": [],
+        "sourceLine": 19
+      },
+      {
+        "name": "Olaf",
+        "npcId": 6908,
+        "encounterIds": [],
+        "sourceLine": 20
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 21
+      }
+    ]
+  },
+  {
+    "name": "Upper Blackrock Spire",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\UpperBlackrockSpire.lua",
+    "sourceFileSha256": "3940AEA4EE16A960CCF5D1B8AEFBDCB4F8BAC2915A48D5F6A6D70EC726048D26",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1427,
+    "bosses": [
+      {
+        "name": "Pyroguard Emberseer",
+        "npcId": 9816,
+        "encounterIds": [
+          3062
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Solakar Flamewreath",
+        "npcId": 10264,
+        "encounterIds": [],
+        "sourceLine": 12
+      },
+      {
+        "name": "Goraluk Anvilcrack",
+        "npcId": 10899,
+        "encounterIds": [],
+        "sourceLine": 13
+      },
+      {
+        "name": "Gyth",
+        "npcId": 10339,
+        "encounterIds": [],
+        "sourceLine": 14
+      },
+      {
+        "name": "Warchief Rend Blackhand",
+        "npcId": 10429,
+        "encounterIds": [
+          3063
+        ],
+        "sourceLine": 15
+      },
+      {
+        "name": "The Beast",
+        "npcId": 10430,
+        "encounterIds": [
+          3068
+        ],
+        "sourceLine": 16
+      },
+      {
+        "name": "General Drakkisath",
+        "npcId": 10363,
+        "encounterIds": [
+          3069
+        ],
+        "sourceLine": 17
+      },
+      {
+        "name": "Jed Runewatcher",
+        "npcId": 10509,
+        "encounterIds": [],
+        "sourceLine": 18
+      },
+      {
+        "name": "Lord Valthalak",
+        "npcId": 16042,
+        "encounterIds": [
+          3070
+        ],
+        "sourceLine": 19
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 20
+      }
+    ]
+  },
+  {
+    "name": "Wailing Caverns",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\WailingCaverns.lua",
+    "sourceFileSha256": "B390FF969D64F5E5ADCEBA20410C6DE1AD73CD9D3E9D16BA9D5AAD982BE926F4",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1413,
+    "bosses": [
+      {
+        "name": "Lady Anacondra",
+        "npcId": 3671,
+        "encounterIds": [
+          585
+        ],
+        "sourceLine": 10
+      },
+      {
+        "name": "Lord Cobrahn",
+        "npcId": 3669,
+        "encounterIds": [
+          586
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Kresh",
+        "npcId": 3653,
+        "encounterIds": [
+          587
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "Lord Pythas",
+        "npcId": 3670,
+        "encounterIds": [
+          588
+        ],
+        "sourceLine": 13
+      },
+      {
+        "name": "Skum",
+        "npcId": 3674,
+        "encounterIds": [
+          589
+        ],
+        "sourceLine": 14
+      },
+      {
+        "name": "Lord Serpentis",
+        "npcId": 3673,
+        "encounterIds": [
+          590
+        ],
+        "sourceLine": 15
+      },
+      {
+        "name": "Verdan the Everliving",
+        "npcId": 5775,
+        "encounterIds": [
+          591
+        ],
+        "sourceLine": 16
+      },
+      {
+        "name": "Mutanus the Devourer",
+        "npcId": 3654,
+        "encounterIds": [
+          592
+        ],
+        "sourceLine": 17
+      },
+      {
+        "name": "Deviate Faerie Dragon",
+        "npcId": 5912,
+        "encounterIds": [],
+        "sourceLine": 18
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 19
+      }
+    ]
+  },
+  {
+    "name": "Zul'Farrak",
+    "source_url": "C:\\Program Files (x86)\\World of Warcraft\\_forever_\\Interface\\AddOns\\NaowhForever_DungeonJournal\\Data\\Dungeons\\ZulFarrak.lua",
+    "sourceFileSha256": "7DB95569144B74889D563414C52C56A7EDB49200511F6F3BD1DD21B975B648D0",
+    "observed_build": "1.60.1.70707",
+    "collected_at": "2026-11-03T17:22:17Z",
+    "method": "static-addon-source-extraction",
+    "license": "unknown; inspect original addon attribution/license before redistribution",
+    "confidence": "addon-catalog-entry; live behavior unverified",
+    "entranceMapId": 1446,
+    "bosses": [
+      {
+        "name": "Antu'sul",
+        "npcId": 8127,
+        "encounterIds": [
+          595
+        ],
+        "sourceLine": 11
+      },
+      {
+        "name": "Theka the Martyr",
+        "npcId": 7272,
+        "encounterIds": [
+          596
+        ],
+        "sourceLine": 12
+      },
+      {
+        "name": "Witch Doctor Zum'rah",
+        "npcId": 7271,
+        "encounterIds": [
+          597
+        ],
+        "sourceLine": 13
+      },
+      {
+        "name": "Nekrum Gutchewer",
+        "npcId": 7796,
+        "encounterIds": [
+          598
+        ],
+        "sourceLine": 14
+      },
+      {
+        "name": "Shadowpriest Sezz'ziz",
+        "npcId": 7275,
+        "encounterIds": [
+          599
+        ],
+        "sourceLine": 15
+      },
+      {
+        "name": "Sergeant Bly",
+        "npcId": 7604,
+        "encounterIds": [],
+        "sourceLine": 16
+      },
+      {
+        "name": "Hydromancer Velratha",
+        "npcId": 7795,
+        "encounterIds": [
+          593
+        ],
+        "sourceLine": 17
+      },
+      {
+        "name": "Gahz'rilla",
+        "npcId": 7273,
+        "encounterIds": [
+          594
+        ],
+        "sourceLine": 18
+      },
+      {
+        "name": "Chief Ukorz Sandscalp",
+        "npcId": 7267,
+        "encounterIds": [
+          600
+        ],
+        "sourceLine": 19
+      },
+      {
+        "name": "Zerillis",
+        "npcId": 10082,
+        "encounterIds": [],
+        "sourceLine": 20
+      },
+      {
+        "name": "Dustwraith",
+        "npcId": 10081,
+        "encounterIds": [],
+        "sourceLine": 21
+      },
+      {
+        "name": "Trash",
+        "npcId": null,
+        "encounterIds": [],
+        "sourceLine": 22
+      }
+    ]
+  }
+]
+
