@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "game": "World of Warcraft: Forever",
+  "build": "1.60.1.69893",
+  "interface": 16001,
+  "project": "WOW_PROJECT_MAINLINE",
+  "executable": "WowB.exe",
+  "client_folder": "_classic_beta_",
+  "facts": [
+    {
+      "id": "C_Traits",
+      "kind": "api",
+      "name": "Trait system",
+      "source_url": "https://github.com/Thunderz96/forever-addon-kit",
+      "observed_build": "1.60.1.69893",
+      "method": "upstream client-tested README",
+      "license": "source reference only",
+      "confidence": "community-observed"
+    },
+    {
+      "id": "C_Secrets",
+      "kind": "api",
+      "name": "Secret-value API",
+      "source_url": "https://github.com/Thunderz96/forever-addon-kit",
+      "observed_build": "1.60.1.69893",
+      "method": "upstream client-tested README",
+      "license": "source reference only",
+      "confidence": "community-observed"
+    },
+    {
+      "id": "C_DamageMeter",
+      "kind": "api",
+      "name": "Built-in damage meter",
+      "source_url": "https://github.com/Thunderz96/forever-addon-kit",
+      "observed_build": "1.60.1.69893",
+      "method": "upstream client-tested README",
+      "license": "source reference only",
+      "confidence": "community-observed"
+    }
+  ],
+  "limitations": [
+    "Early beta snapshot; recheck on current build",
+    "No bulk API dump imported"
+  ]
+}
