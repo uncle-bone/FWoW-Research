@@ -42,3 +42,7 @@ Methods: inspect supplied source ZIP, enumerate manifests and source files, extr
 | Live Forever client validation | Not performed |
 
 **Research completeness:** partial; **not** 100% reverse-engineered or live-certified. Next: function-level call graphs and deterministic mocked-API tests, then a user-facing live test sheet for any remaining client-only claims. Do not redistribute upstream code or artwork.
+
+## Version-specific callback and migration follow-up (2026-11-03)
+
+[Callback dispatch and migration inventory](CALLBACK-AND-MIGRATION-MAP-9.7.3.md) is generated directly from the **uploaded 9.7.3 ZIP**, not from upstream 9.7.4. It maps the EUILite function/string/default callback resolution and event unregister behavior, and records 114 migration registrations by scope. The full 9.7.3 static callback index is available in the conversation artifact; it has not been copied into GitHub because the source-derived index is approximately 709 KB. Remaining gaps are explicitly tracked in the linked report.
