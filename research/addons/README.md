@@ -34,3 +34,11 @@ For each addon, record:
 7. Licenses and redistribution limits. Do not add upstream code dumps, copyrighted assets, credentials, game executables, or client archives. Prefer concise independently written analysis and permitted factual metadata.
 
 “Complete” means every in-scope file/module has a recorded disposition and every major system has an evidence-backed analysis. It does not mean every possible runtime state has been proven. List explicit gaps; do not claim 100% understanding or live certification without evidence.
+
+## Current addon-specific source studies
+
+- [EllesmereUI 9.7.3 — inventory, source traces, and completion matrix](ellesmereui/README.md)
+- [ForeverAuras 1.1.0 — scoped inventory and gaps](foreverauras/README.md)
+- [FojjiCore 4.0.3 — scoped inventory and gaps](fojjicore/README.md)
+
+These studies are distinct from the [BoneUI workstream](boneui/README.md) and do not modify its addon source.
