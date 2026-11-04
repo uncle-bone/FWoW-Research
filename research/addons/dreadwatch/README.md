@@ -8,6 +8,9 @@ Keep all conclusions evidence-labeled per [the addon research standards](../READ
 
 ## Reports
 
+- [BigWigs 427.8 loader, zone selection and Forever compatibility](bigwigs-4278-loader-compatibility-2026-11-04.md) — pinned loader event/message call graph and all TOC gates.
+- [LittleWigs 12.1.22 full-archive lifecycle census](littlewigs-12122-lifecycle-census-2026-11-04.md) — all 907 Lua files scanned and 12 manifests enumerated.
+
 - [BigWigs 427.8 core dispatcher, boss lifecycle, Timeline and Forever compatibility](bigwigs-4278-source-trace-2026-11-04.md) — source call graphs, state, cleanup, secret-value and coverage gaps.
 - [LittleWigs 12.1.22 manifest and 907-Lua archive inventory](littlewigs-12122-manifest-inventory-2026-11-04.md) — game-type gates, source classification and remaining full-module work.
 
