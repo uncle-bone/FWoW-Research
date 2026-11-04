@@ -1,0 +1,44 @@
+# EllesmereUI — source-grounded research (in progress)
+
+**Maintainer of this research:** Uncle Bone. **Upstream:** https://github.com/EllesmereGaming/EllesmereUI. **Research date:** 2026-11-03. **Evidence baseline:** user-supplied `EllesmereUI-9.7.3.zip`, whose main `EllesmereUI/EllesmereUI.toc` declares version **9.7.3** and interfaces `120000, 120001, 120005, 120007, 120100, 120105, 16001`. SHA-256 of uploaded archive: `8c572970a01b94d26ab6be30327200b46b4654e40da33303da3677de3749093e`. GitHub default branch was separately observed to declare **9.7.4**; do not conflate the two revisions. **No live client tests were performed.**
+
+## Architecture and execution inventory
+
+| Area | Source locations / symbols to trace | Evidence | Completion / gap |
+|---|---|---|---|
+| Bootstrap and client gate | `EllesmereUI/EllesmereUI.toc`, `EllesmereUI_ClientGate.lua`, `EllesmereUI_Lite.lua`, `EllesmereUI_Startup.lua` | source-confirmed file/load declarations | Manifest inventory complete; all initialization branches unresolved |
+| Saved state and migrations | `EllesmereUI_Migration.lua`, `EllesmereUI_Profiles.lua`, `EllesmereUI_ProfileSync.lua`, `EllesmereUI_SpecOverrides.lua` | source-confirmed named subsystems; `EllesmereUIDB` declared by TOC | Database schema/migration edge cases not certified |
+| Positioning and anchors | `EUI_UnlockMode.lua`, `EUI_UnlockMode_Anchors.lua`, `EUI_UnlockMode_Movers.lua`, `EUI_UnlockMode_Positions.lua` | source-confirmed files | Frame ownership, rollback and combat interactions need execution tracing |
+| Combat and secure actions | `EllesmereUI_Kick.lua`, `EllesmereUI_AuraKit.lua`, `EllesmereUIActionBars/EUI_ActionBars_Secure.lua`, `EUI_ActionBars_VisibilityDrivers.lua` | source-confirmed file names and static guard references | Taint and secure behavior unknown without targeted runtime tests |
+| Shared display infrastructure | `EllesmereUI_PixelPerfect.lua`, `EllesmereUI_UICore.lua`, `EllesmereUI_Colors.lua`, `EllesmereUI_Fonts.lua`, `EllesmereUI_Ticker.lua` | source-confirmed | API contracts and call graph incomplete |
+| UI feature packages | ActionBars, AuraBuffReminders, Bags, BlizzardSkin, Chat, CooldownManager, DamageMeters, DataBars, ForeverEssentials, Minimap, Nameplates, Options, QoL, RaidFrames, ResourceBars, UnitFrames, plus others | source-confirmed package directory inventory | Per-module behavioral branches and lifecycle tests incomplete |
+| Cross-addon dependency | main and feature `.toc` manifests | source-confirmed: no declared mandatory ForeverAuras dependency in inspected EllesmereUI manifests | Indirect shared-Blizzard-API interactions not proven absent |
+
+## Source-trace checkpoints
+
+- `EllesmereUI/EllesmereUI.lua:432`, `:639`, `:641`, `:979` were indexed as event-registration sites in the earlier static audit. **Evidence: source-confirmed locations, not proof of runtime registration.**
+- `EllesmereUI/EllesmereUI.lua:399`, `:595`, `:1029`, `:1033` were indexed as combat-lockdown references. **Evidence: source-confirmed static references; combat safety unknown.**
+- `EllesmereUIActionBars/EUI_ActionBars_Bars.lua:29`, `:38`, `:129`, `:131` were indexed as secure-template references. **Evidence: source-confirmed static references.**
+- `EllesmereUI/EllesmereUI_Profiles.lua:3858`, `:4889`, `:5136` were indexed as profile API references. **Evidence: source-confirmed static references; complete state semantics unknown.**
+
+## Methods and limits
+
+Methods: inspect supplied source ZIP, enumerate manifests and source files, extract static references and compare with official upstream manifest. Prior chat reports include `EllesmereUI_9.7.3_Static_Source_Audit.md`, `EllesmereUI_Reverse_Engineering_Dossier.md`, and `EllesmereUI_9.7.3_Deep_Source_Trace.md`; they are **not** committed here because the existing repository does not contain them and a static index is not an independently verified execution trace. Source evidence is **source-confirmed** only for literal declarations and code locations; no findings are marked **observed-live**. Version/interface declarations are **client/build-derived metadata**, not evidence of successful client operation. All untraced behavior is **unknown**. Inferred module responsibilities from names must not be presented as confirmed behavior.
+
+## Completion matrix
+
+| Workstream | Status |
+|---|---|
+| Archive integrity and file inventory | Complete for supplied ZIP |
+| TOC/load-order declarations | Indexed; dynamic load paths pending |
+| Architecture/module responsibility | Partial |
+| Public API signatures and callers | Partial |
+| Events/handlers and update cadence | Static locations indexed; dynamic dispatch pending |
+| SavedVariables/config and migration | Partial |
+| Data flow and execution branches | Partial |
+| Inter-addon dependencies | Manifest-level reviewed; runtime integration pending |
+| Error handling and rollback | Pending systematic audit |
+| Performance, security, combat | Hotspots indexed; behavior unverified |
+| Live Forever client validation | Not performed |
+
+**Research completeness:** partial; **not** 100% reverse-engineered or live-certified. Next: function-level call graphs and deterministic mocked-API tests, then a user-facing live test sheet for any remaining client-only claims. Do not redistribute upstream code or artwork.
