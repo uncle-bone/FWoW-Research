@@ -58,3 +58,15 @@ Methods: inspect supplied source ZIP, enumerate manifests and source files, extr
 ## Resumed source tracing
 
 [Extra-bar visibility proxy](EXTRA-BAR-VISIBILITY-9.7.3.md) resolves the dynamically assigned secure state callback and distinguishes three separate state drivers. [Click-cast migration to runtime consumer](CLICKCAST-MIGRATION-CONSUMER-9.7.3.md) links a global migration to RaidFrames field readers and records a partial-write retry risk. Both are source-only; remaining migration consumers and package cleanup are open.
+
+## 2026-11-03 multi-stage 9.7.3 archive audit
+
+The following are **source-only** reports, all based on the uploaded 9.7.3 ZIP (not upstream 9.7.4):
+
+1. [All-package event lifecycle inventory](ALL-PACKAGE-EVENT-LIFECYCLE-9.7.3.md) — 647 Lua files inspected, 639 non-Libs Lua files across 25 packages; registration/unregistration candidate counts and ownership gaps. **Archive-wide lexical discovery done; per-event cleanup proof open.**
+2. [Vehicle, bonus and extra-action secure ownership](VEHICLE-BONUS-EXTRA-SECURE-9.7.3.md) — eight attribute drivers, secure controller frame list, bonus paging and vehicle/extra-action hooks. **Major paths traced; teardown and reentrancy proof open.**
+3. [114 migration consumer triage](MIGRATION-CONSUMER-TRIAGE-9.7.3.md) — 98 entries with external literal token matches, 16 without under the scan rule. **Candidate matches, not 98 proven consumers.**
+4. [Profile import/export validation](PROFILE-IMPORT-EXPORT-VALIDATION-9.7.3.md) — export snapshot writes, decoder version gates, async ownership, direct-table import and switch state. **Nested validation and rollback open.**
+5. [Function/protected-call triage](FUNCTION-AND-PROTECTED-CALL-TRIAGE-9.7.3.md) — lexical navigation map and high-risk branches. **Not AST coverage or proof of combat safety.**
+
+**Single ordered remaining queue:** (1) per-event owner→dispatcher→cleanup matching, prioritizing QoL, ActionBars, CooldownManager and UnitFrames; (2) secure controller frame-list lifetime and extra-action SetParent reentrancy; (3) semantic per-migration write/read/retry matrix for all 114; (4) async import cancellation, nested schema and error recovery; (5) AST-level function inventory and protected-call control-flow audit. Do not mark EllesmereUI source coverage closed until these are evidenced. No other addon scope is authorized in this research sequence.
