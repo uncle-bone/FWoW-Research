@@ -32,6 +32,20 @@
       "name": "Blizzard Battle.net",
       "url": "https://news.blizzard.com/en-us/article/24304160/the-world-of-warcraft-forever-beta-now-live",
       "role": "official authorized client installation"
+    },
+    {
+      "name": "NaowhForever (Checkov23)",
+      "url": "https://github.com/Checkov23/NaowhForever",
+      "creator_url": "https://github.com/Checkov23",
+      "role": "Forever Dungeon Journal source for dungeon/boss identities, NPC IDs, encounter IDs, and map records",
+      "license_note": "Repository LICENSE.md says the addon’s own contents are all-rights-reserved except listed external components; use as a research reference and independently implement Dreadwatch behavior. Do not copy code or assets."
+    },
+    {
+      "name": "Forever Dungeon Routes 1.0.3",
+      "url": "https://www.curseforge.com/wow/addons/forever-dungeon-routes",
+      "creator_url": "https://github.com/Checkov23",
+      "role": "Forever route dataset with instance/floor IDs, boss stops, and encounter IDs; not a boss ability warning/timer pack",
+      "license_note": "User-provided v1.0.3 ZIP declares MIT; retain license and map credits if reusing package data."
     }
   ]
 }
