@@ -54,3 +54,15 @@ Method: inspected prior repository reports, connected GitHub source files and ma
 - [GitHub HEAD comparison](github-head-vs-bigtest-2026-11-04.md): pinned Dreadwatch `5002ef2fd2c64b0ebdac588f143da5ed412463ad` tracks four Markdown files, **zero Lua/TOC files**. All six ZIP engine Lua/TOC files are archive-only. Current engine HEAD inventory **resolved** (SC); release assets not audited (UN).
 - [Registry/encounter/scheduler trace](registry-activation-scheduler-trace-2026-11-04.md): all ZIP functions and activation paths covered (SC); no native encounter activation or logger implemented in this prototype; live tests UN.
 - **DreadwatchPTR remains retired** and excluded from active work.
+
+## 2026-11-04 reference-first priority and coverage
+
+**Do not analyze or develop Dreadwatch engine/prototype until the reference audit is systematic and complete. DreadwatchPTR retired.** DBM 12.1.19 encounter-warning/timeline belongs to separate workstream; avoid duplicate work.
+
+| Reference | Current audited coverage | Next uncovered source |
+|---|---|---|
+| BigWigs 427.8 | [Core event map, module lifecycle, Timeline plugin, selected Forever branches](bigwigs-4278-source-trace-2026-11-04.md) (SC); 173 Lua files total | Loader game-type flags, plugin consumers, message transport, remaining helper and error paths |
+| LittleWigs 12.1.22 | [Manifest conditions and 907-Lua file inventory](littlewigs-12122-manifest-inventory-2026-11-04.md) (SC) | Per-file nonlocale module lifecycle and event-path classification |
+| DBM-Core 12.1.19 | Prior combat logging (SC), warning/timeline reserved for user's separate audit | Nonoverlapping reference paths only |
+| DBM-Dungeons Forever 270 | Prior 24-module registration-only scan (SC) | Pin per-file manifest/encounter IDs and compare actual API paths |
+| Cross-source portability | Partial | Evidence matrix by API, game type, license and runtime verification |
