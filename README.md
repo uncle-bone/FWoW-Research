@@ -52,3 +52,5 @@ Two source-audit workstreams are underway in this repository. See the [addon res
 
 - [DBM-Core 12.1.19 combat detection and logging ownership](research/addons/dreadwatch/dbm-combat-detection-logging-2026-11-04.md)
 - [Dreadwatch 0.1.1 packaged core inventory](research/addons/dreadwatch/dreadwatch-v0.1.1-core-inventory-2026-11-04.md)
+
+- [Dreadwatch HEAD vs engine ZIP](research/addons/dreadwatch/github-head-vs-bigtest-2026-11-04.md) and [registry/encounter/scheduler call graph](research/addons/dreadwatch/registry-activation-scheduler-trace-2026-11-04.md) — pinned source comparison and prototype execution paths.
