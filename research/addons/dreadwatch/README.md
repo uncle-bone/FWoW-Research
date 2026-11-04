@@ -6,12 +6,12 @@ Keep all conclusions evidence-labeled per [the addon research standards](../READ
 
 ## Reports
 
-_To be filled with committed, source-backed reports as the workstream progresses._
+- [Reference-engine source audit and per-addon coverage matrix](reference-engine-audit-2026-11-03.md) — DBM-Core, DBM-Dungeons Forever, BigWigs, LittleWigs, DBM-CoA and Dreadwatch; source paths, evidence labels and open gaps.
 
 ## Completion matrix
 
-_To be replaced with a file/module inventory and explicit completed, partial, and unreviewed coverage._
+See the [per-addon matrix](reference-engine-audit-2026-11-03.md#per-addon-coverage-matrix). All addons remain **partial**; complete function-level inventories and live verification are not claimed.
 
 ## Open questions and verification gaps
 
-_To be maintained as evidence is gathered._
+See [actionable gaps](reference-engine-audit-2026-11-03.md#actionable-gaps).
