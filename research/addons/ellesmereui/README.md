@@ -50,3 +50,7 @@ Methods: inspect supplied source ZIP, enumerate manifests and source files, extr
 ## Migration execution follow-up
 
 [9.7.3 migration execution first-pass audit](MIGRATION-EXECUTION-9.7.3.md) enumerates 114 literal registrations (42 global / 59 profile / 13 specProfile) and distinguishes source-indexed bodies from unproven idempotence, downstream consumers, and runtime behavior. The longer per-registration lexical inventory was generated from the uploaded ZIP in the conversation; the GitHub report explicitly records its limitations. Migration coverage is **indexed, not execution-closed**.
+
+## High-impact dispatch and ActionBars closure
+
+[Four 9.7.3 high-impact execution paths](HIGH-IMPACT-EXECUTION-PATHS-9.7.3.md) trace slot-change rerouting, combat-deferred spec/profile switching, secure visibility, and profile selection. [ActionBars deferred-flag consumer](ACTIONBARS-DEFERRED-FLAG-CONSUMER-9.7.3.md) resolves the previously open `ns._eabApplyDeferred` → `PLAYER_REGEN_ENABLED` → `ApplyAll` edge. Explicit event unregistration, extra-bar state-driver teardown, complete migration consumers and live taint remain open.
