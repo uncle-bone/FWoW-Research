@@ -46,3 +46,7 @@ Methods: inspect supplied source ZIP, enumerate manifests and source files, extr
 ## Version-specific callback and migration follow-up (2026-11-03)
 
 [Callback dispatch and migration inventory](CALLBACK-AND-MIGRATION-MAP-9.7.3.md) is generated directly from the **uploaded 9.7.3 ZIP**, not from upstream 9.7.4. It maps the EUILite function/string/default callback resolution and event unregister behavior, and records 114 migration registrations by scope. The full 9.7.3 static callback index is available in the conversation artifact; it has not been copied into GitHub because the source-derived index is approximately 709 KB. Remaining gaps are explicitly tracked in the linked report.
+
+## Migration execution follow-up
+
+[9.7.3 migration execution first-pass audit](MIGRATION-EXECUTION-9.7.3.md) enumerates 114 literal registrations (42 global / 59 profile / 13 specProfile) and distinguishes source-indexed bodies from unproven idempotence, downstream consumers, and runtime behavior. The longer per-registration lexical inventory was generated from the uploaded ZIP in the conversation; the GitHub report explicitly records its limitations. Migration coverage is **indexed, not execution-closed**.
