@@ -54,3 +54,7 @@ Methods: inspect supplied source ZIP, enumerate manifests and source files, extr
 ## High-impact dispatch and ActionBars closure
 
 [Four 9.7.3 high-impact execution paths](HIGH-IMPACT-EXECUTION-PATHS-9.7.3.md) trace slot-change rerouting, combat-deferred spec/profile switching, secure visibility, and profile selection. [ActionBars deferred-flag consumer](ACTIONBARS-DEFERRED-FLAG-CONSUMER-9.7.3.md) resolves the previously open `ns._eabApplyDeferred` → `PLAYER_REGEN_ENABLED` → `ApplyAll` edge. Explicit event unregistration, extra-bar state-driver teardown, complete migration consumers and live taint remain open.
+
+## Resumed source tracing
+
+[Extra-bar visibility proxy](EXTRA-BAR-VISIBILITY-9.7.3.md) resolves the dynamically assigned secure state callback and distinguishes three separate state drivers. [Click-cast migration to runtime consumer](CLICKCAST-MIGRATION-CONSUMER-9.7.3.md) links a global migration to RaidFrames field readers and records a partial-write retry risk. Both are source-only; remaining migration consumers and package cleanup are open.
