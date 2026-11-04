@@ -41,3 +41,8 @@ Date: 2026-11-03. Evidence labels: **SC** source-confirmed; **BD** client/build-
 ## License and method
 
 Method: inspected prior repository reports, connected GitHub source files and manifests, and findings from supplied versioned addon archives. No bulk code or assets copied. BigWigs/LittleWigs TOCs state All Rights Reserved with limited GitHub fork/modification permission. Treat all source as research evidence, not permission to transplant implementations. GitHub default-branch links may change; pinned SHA/source snapshots remain outstanding.
+
+## 2026-11-04 coverage update
+
+- **DBM-Core combat detection/logging:** source-traced from fixed 12.1.19 archive, including `CombatDetection.lua`, `Loading.lua`, `UserTimers.lua`, `Difficulties.lua` and options; see [pinned archive report](dbm-combat-detection-logging-2026-11-04.md). Live behavior UN.
+- **Dreadwatch 0.1.1-bigtest packaged core:** all five Lua files, their functions and event/data flows inventoried; see [prototype inventory](dreadwatch-v0.1.1-core-inventory-2026-11-04.md). Current GitHub HEAD remains UN.
