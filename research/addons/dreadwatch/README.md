@@ -4,7 +4,12 @@ Status: **in progress**. **Scope decision (2026-11-04): DreadwatchPTR is retired
 
 Keep all conclusions evidence-labeled per [the addon research standards](../README.md). Record the exact Dreadwatch revision/archive and source versions inspected. Static comparison with DBM/BigWigs is explanatory evidence only; do not copy their code or claim Forever runtime behavior from source alone.
 
+**Priority override (2026-11-04):** Suspend all Dreadwatch addon/prototype analysis and implementation. Active work is **reference-source reverse engineering only** (BigWigs, LittleWigs, DBM and Forever-specific sources); the separate DBM encounter-warning/timeline audit belongs to the user's other workstream. DreadwatchPTR remains retired.
+
 ## Reports
+
+- [BigWigs 427.8 core dispatcher, boss lifecycle, Timeline and Forever compatibility](bigwigs-4278-source-trace-2026-11-04.md) — source call graphs, state, cleanup, secret-value and coverage gaps.
+- [LittleWigs 12.1.22 manifest and 907-Lua archive inventory](littlewigs-12122-manifest-inventory-2026-11-04.md) — game-type gates, source classification and remaining full-module work.
 
 - [Pinned GitHub HEAD versus v0.1.1-bigtest engine](github-head-vs-bigtest-2026-11-04.md) — complete four-file tracked tree, six missing Lua/TOC files and archive-only runtime.
 - [Module registry, encounter activation and warning scheduler](registry-activation-scheduler-trace-2026-11-04.md) — every packaged function/event path and behavior gaps.
