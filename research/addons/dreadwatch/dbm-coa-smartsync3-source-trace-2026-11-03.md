@@ -1,0 +1,56 @@
+# DBM-CoA SmartSync v3: source-level end-to-end trace
+
+**Inspected:** 2026-11-03. **Target:** [DBM-CoA](https://github.com/uncle-bone/DBM-CoA), public `main`, `DBM-CoA-Learner/SmartSync3.lua` blob `3e00ef850b4454361e49c6225e76d1e5b4021027`. Supporting blobs: `DBM-CoA-Learner.toc` `afc3cdb03335dc0404f61cb1f99e3a3a3df3e55d`, `Learner.lua` `30e8b2a66972d8c2bba64f828df2da27b2e414b4`, `SyncThrottle.lua` `273d782c309c35e2818f1324b4ac8aad22980898`, `CoASyncChannel.lua` `60a800b6f0f7803250dd925a6e70b30b573499e2`. Manifest reports version `6.0.0-central-engine-test1`, interface `30300`, DBM-Core dependency. The repository README describes stable v6.0.0, but this is **not** proof the source blob matches a published stable artifact. Evidence **SC** = source-confirmed, **IN** = inference, **UN** = unknown, **OL** = observed-live (none).
+
+## Load order, startup and storage
+
+**SC:** The manifest loads `SyncThrottle.lua` then `CoASyncChannel.lua`, then `Learner.lua`, then `SmartSync3.lua`, followed by options and other modules. `Learner.lua` handles `ADDON_LOADED` for `DBM-CoA-Learner`, initializes `DBMCoALearnerDB`, `knowledge`, `sessions`, `timings` and `remoteTimingSources`, and constructs the `known` cache. `SmartSync3.lua` separately handles `ADDON_LOADED`, adopts the global DB, defaults `smartSync3Disabled` to false if unset, and writes `db.smartSync3.schema=3`, `baseline="CoAArchive-N-S-Q-I-v1"`. `PLAYER_LEAVING_WORLD` pauses indefinitely; `PLAYER_ENTERING_WORLD` resumes after a 10-second guard. Initial state has `dirty=true`, `ready=false`, and no peers. Source: [TOC](https://github.com/uncle-bone/DBM-CoA/blob/main/DBM-CoA-Learner/DBM-CoA-Learner.toc), [Learner.lua](https://github.com/uncle-bone/DBM-CoA/blob/main/DBM-CoA-Learner/Learner.lua), [SmartSync3.lua](https://github.com/uncle-bone/DBM-CoA/blob/main/DBM-CoA-Learner/SmartSync3.lua).
+
+**SC:** The `OnUpdate` loop increments elapsed time only when DB exists, world is unpaused, 10-second guard has elapsed, and `GetInstanceInfo()` type is `none`. Every ~1.5 seconds it rebuilds one index chunk if dirty, otherwise queues one initial `H;3`, then conditionally sends. Index `buildStep` snapshots `db.knowledge` keys and processes up to 80 entries per step; creates 32 buckets (0–31), each holding `count`, additive `digest`, ordered `records`, and `hashes[hash1][canonical]=true`; global `keys[canonical]=true`. A `DBMCoASmartSync3Dirty()` during rebuilding sets `pendingDirty`, triggering a subsequent rebuild. Rebuild is **not** a live incremental update; it rebuilds the entire index in chunks. Bucket assignment hashes `kind;instance;difficulty;npc;spell` modulo 32; the bucket digest sums `hash(canonical)` modulo 2147483647. **IN:** unordered `pairs` key enumeration makes record/inventory order non-deterministic across peers, although digest summation is order-insensitive.
+
+## Identity, validation and transport
+
+**SC:** Protocol prefix `DCOAS3`, channel `CoASync`; `CHAT_MSG_CHANNEL` is accepted only after `DBMCoASyncChannelMatches(displayName,index,baseName)` verifies the locally joined numeric channel and a normalized matching channel name. Sender matching excludes self by case-insensitive character name, with optional normalized realm. Peers are keyed by raw sender string; each has 10-second receive window capped at 12 accepted packets, plus cooldown fields. Incoming length cap 240 and ASCII allowlist `^[%w ;%-_%.|]+$`. `record` accepts only kinds N/S, instance 2–55 chars with alphabetic character, difficulty 0–100, NPC 1–100000000, spell 0–100000000, name up to 55 chars, allowed field characters, canonical length at most 190. It does not cryptographically authenticate peer identity or provenance. Source: [SmartSync3.lua](https://github.com/uncle-bone/DBM-CoA/blob/main/DBM-CoA-Learner/SmartSync3.lua).
+
+**SC:** `enqueue` deduplicates identical queued messages via `queuedMessages`, caps nominal outstanding items at 160, payload length at 231 and the same ASCII allowlist. `send` refuses simulator mode, missing channel, pause/guard, instance, or disabled settings, then calls `DBMCoAChannelSend(PREFIX..";"..msg,id)`. Shared throttle enforces 1.05 seconds since last reserved send, channel ID, max 235-byte complete message, out-of-combat, outside instance, FPS >=25 when measurable, and `pcall(SendChatMessage,...)`. `last` reserves a slot **before** `pcall`; failed sends can consume a throttle interval. There is no per-peer routing: all messages broadcast on the channel. Source: [SyncThrottle.lua](https://github.com/uncle-bone/DBM-CoA/blob/main/DBM-CoA-Learner/SyncThrottle.lua).
+
+## Every message path
+
+| Type | Inbound parse / effect (SC) | Outbound producer / limitations (SC) |
+|---|---|---|
+| `H;3` | When ready, increments hello and enqueues `S` for each nonempty bucket | Queued once after first build, and after ~2400 idle send-loop iterations; manual `/coasmart3 hello` |
+| `S;b;count;digest` | Validates bucket 0–31, compares count/digest; differing bucket enqueues `I;b`, at most once per peer/bucket per 180 sec | In response to H |
+| `I;b` | Validates bucket; throttles inventory response to once per peer/bucket per 120 sec; emits up to 20 records from rotating offset | Requested after mismatched S |
+| `K;b;hash1` | If local bucket lacks hash1, requests `R;b;hash1`, peer/hash cooldown 180 sec | Legacy inventory compatibility; emitted alongside K2 |
+| `K2;b;hash1;hash2` | Checks both hashes against bucket's canonical variants; if absent requests `R2` with peer/bucket/hash pair cooldown 180 sec | Emitted alongside K for each inventory record |
+| `R;b;hash1` | Enqueues `D;canonical` for **all** matching hash1 variants; peer/hash cooldown 180 sec | Requested after missing K |
+| `R2;b;hash1;hash2` | Enqueues matching hash1+hash2 variants only; peer/pair cooldown 180 sec | Requested after missing K2 |
+| `D;kind;instance;difficulty;npc;spell;name` | Revalidates canonical record, rejects duplicates by canonical or five-part DB key, writes persistent `db.knowledge[key]` with `seen`, `remote=true`; invokes learner callback unless simulating; dirties index; queues A every tenth accepted import | In response to R/R2; received records are not immediately relayed |
+| `A;number` | Increments ACK counter **without parsing or matching sequence** | Enqueued every tenth applied import; informational, not reliable delivery ACK |
+
+**SC:** Unknown messages increment invalid count. Invalid prefixes or blocked/gated packets can return without incrementing invalid. The receive path checks enabled/suspended/paused/resume before message validation; it does not check `InCombatLockdown` on receive, while outgoing send does. There is no explicit maximum on peer-table size, peer TTL eviction, or persisted reconciliation cursor. **IN:** repeated inventory cycles may eventually expose large buckets, but the 120-second per-peer/bucket cooldown and 20-record paging prevent immediate full transfer.
+
+## Queue, gating and failure concerns
+
+**SC:** `OnUpdate` sends at most one queued packet per ~1.5 seconds; the shared throttle may delay this further. `enabled()` requires `smartSync3Disabled~=true`, `sharingDisabled~=true`, `channelDisabled~=true`, `channelUnsafe~=true`. Both send and receive are disabled while `GetInstanceInfo()` reports non-`none`; outgoing is additionally gated by combat and FPS in shared throttle. Learner has separate channel join/verification logic and legacy `DCOAL31`/`DCOAR21` protocols. **SC:** SmartSync itself never joins a channel and depends on Learner's channel setup.
+
+**Risk (IN, code-grounded):** `queue[head]=false` after success, then `#queue` is used for pending count/limits; Lua 5.1 length on sparse/hole-like sequences is not a robust queue-size invariant. False entries are non-nil (not literal holes), but after queue reset/re-enqueue, head/index arithmetic deserves regression tests. `enqueue` returns true for deduplicated messages, so `rx.dataSent` counts queued/dedup outcomes rather than actual transport success. `hashCollisions` counts different canonical strings sharing hash1, while K2 reduces but cannot mathematically eliminate dual-hash collisions. Digest equality is not proof of identical sets. Per-sender 12-packets/10-second cap and unbounded peer map create resource/false-negative risks. **UN:** actual operational impact without peer/load tests.
+
+## Simulator boundaries and test coverage
+
+**SC:** `DBMCoASmartSync3Simulate()` is opt-in via `/coasmart3 simulate` or Learner's `/dbmcoa smart3 simulate`. It saves live local references and scalars for DB, queue, buckets, keys, dirty/rebuild, peers, counters, tick and initial HELLO, sets `simulating=true`, substitutes sandbox state, and uses `xpcall` to restore after success or error. `send` hard-refuses while simulating and remote-import callback is suppressed. It tests H, S, I, valid D import, duplicate D, malformed D, index rebuild and no-send. **SC:** It does **not** inject K, K2, R, R2, A, test all invalid ranges, simulate rate-limits, or prove cleanup after asynchronous callbacks. `GetInstanceInfo()` and real sender-name checks remain real global API calls, so its assertions can fail in an instance or if the simulated sender is identified as self. **UN:** no live simulator output captured in this report.
+
+**SC:** Sandbox imports mutate only substituted `db.knowledge`; simulator restores original DB reference, avoiding intended persistent test rows. **IN:** because Lua is single-threaded, synchronous restore is reasonably isolated, but an unanticipated callback/event while simulating could see temporary state; no event disabling or concurrency lock beyond the boolean is present. Source code does not prove SavedVariables were unchanged after an actual run.
+
+## Dreadwatch transfer guidance — independent design, no code copying
+
+- Implement native Forever capability probing; do not port 3.3.5a channel transport or assume custom channel messages work in instances.
+- Preserve conceptual separation of canonical record validation, indexed digest reconciliation, peer state, queue/send gate, and isolated test harness.
+- Make delivery counters reflect actual successful sends; use an explicit queue count/head invariant and bounded peer eviction.
+- Make ACKs meaningful only if correlated to message IDs, otherwise label as statistics.
+- Add full packet-path simulator coverage, collision fixtures, malformed inputs, rollback assertions, no-network/no-persistence checks, and interrupted index rebuild tests.
+- Verify Forever's secret-value and combat restrictions before reading or serializing combat-derived fields.
+
+## Completion disposition
+
+**Completed in this pass (SC):** manifest/load order; SmartSync3 local functions `hash`, `hash2`, `channelId`, `suspended`, `enabled`, `enqueue`, `record`, `buildStep`, `send`, `isSelfSender`, `receive`; public `DBMCoASmartSync3Dirty`, `Snapshot`, `Simulate`, `Command`; frame events and OnUpdate; shared send throttle and channel identity; Learner integration points. **Partial:** Learner's complete 772-line state machine and channel-join/error handling, persistence migrations, legacy protocol interoperability. **Not performed:** dynamic instrumentation, exhaustive property tests, live peer exchange, Forever transport compatibility. No upstream code or assets copied.
