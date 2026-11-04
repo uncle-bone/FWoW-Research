@@ -43,3 +43,7 @@ A follow-up catalogs the [KwikTip Forever static encounter records](research/enc
 ### Addon reverse engineering
 
 Two source-audit workstreams are underway in this repository. See the [addon research index](research/addons/README.md) for evidence standards and coverage expectations, [Dreadwatch](research/addons/dreadwatch/README.md), and [BoneUI addon studies](research/addons/boneui/README.md). These analyses track source evidence and unresolved runtime verification separately.
+
+## Addon reverse-engineering research
+
+[Addon research index](research/addons/README.md) · [EllesmereUI 9.7.3](research/addons/ellesmereui/README.md) · [ForeverAuras 1.1.0](research/addons/foreverauras/README.md) · [FojjiCore 4.0.3](research/addons/fojjicore/README.md). These are source-grounded, **incomplete** studies; no live certification is claimed.
