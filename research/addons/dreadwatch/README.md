@@ -6,6 +6,9 @@ Keep all conclusions evidence-labeled per [the addon research standards](../READ
 
 ## Reports
 
+- [DBM-Core 12.1.19 combat detection and logging ownership](dbm-combat-detection-logging-2026-11-04.md) — archive-pinned logging lifecycle, zone/reload transitions, ownership and failure gaps.
+- [Dreadwatch v0.1.1 packaged core/module inventory](dreadwatch-v0.1.1-core-inventory-2026-11-04.md) — all five Lua files, function/event/data-flow matrix and prototype limitations.
+
 - [DBM encounter-warning and timeline function call graph](dbm-encounter-events-callgraph-2026-11-03.md) — suppression, bar creation, lifecycle, stale-event guards and recovery.
 
 - [DBM-CoA SmartSync v3 end-to-end source trace](dbm-coa-smartsync3-source-trace-2026-11-03.md) — all H/S/I/K/K2/R/R2/D/A paths, validation, indexing, gating, persistence, simulator and risks.
