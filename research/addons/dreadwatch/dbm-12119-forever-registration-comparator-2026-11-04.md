@@ -23,3 +23,11 @@
 **Boundary:** No DBM handler call graph, hardcoded timer mapping, secret-safe warning handling or recovery logic is repeated here. Await the separate auditor's findings before updating those rows.
 
 **Reference scope only:** no Dreadwatch addon/prototype work; DreadwatchPTR remains retired.
+
+## Additional exact-version combat-detection comparator (parallel auditor; not independently re-traced)
+
+- `CombatDetection:RegisterCoreEvents()` safe-registers `PLAYER_REGEN_DISABLED`, `ENCOUNTER_START`, `ENCOUNTER_END`, and `BOSS_KILL` unconditionally.
+- `UNIT_HEALTH` is safe-registered only when `private.isRetail`. On Forever the source selects ordinary `RegisterEvents("UNIT_HEALTH_FREQUENT ...")`, while restricted filtering rejects `UNIT_*` for Forever.
+- Non-Retail health-handler logic existing in source therefore does **not** demonstrate functional health-driven boss-start on Forever. Registration and runtime delivery remain unverified; do not classify this as a confirmed bug.
+- Wipe detection reads `UnitAffectingCombat`, `UnitExists`, and group-unit state. Secret/restriction sensitivity and live behavior are **unknown**.
+- The separate DBM source auditor owns detailed combat-detection, wipe and warning/timeline call graphs. This is comparator context only.
