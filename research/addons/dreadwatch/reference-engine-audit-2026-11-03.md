@@ -2,6 +2,8 @@
 
 Date: 2026-11-03. Evidence labels: **SC** source-confirmed; **BD** client/build-derived; **OL** observed live; **IN** inferred; **UN** unknown. **No new live tests in this report.** This is not an exhaustive function-level certification.
 
+**Scope correction (2026-11-04):** DreadwatchPTR is **retired**. References to its earlier audit are historical provenance only, not active engine coverage. No PTR-specific tests, module analysis or implementation work should continue. The independently inspected **Dreadwatch v0.1.1-bigtest engine** is separate. The current Dreadwatch engine GitHub HEAD remains to be verified.
+
 ## Existing research checked
 
 - [Earlier Dreadwatch source audit](../../encounter-source-audits/2026-11-03-dreadwatch-forever-source-audit.md), including Dreadwatch prior commit `dff13365b188f73471e42eb2a5e87c9c4e222422`, build 70755 and DBM-Dungeons upstream `f143f5d8`.
@@ -12,7 +14,7 @@ Date: 2026-11-03. Evidence labels: **SC** source-confirmed; **BD** client/build-
 
 | Reference and exact version | Manifest / dependencies | Architecture, API and execution path | SavedVariables | Error, security, performance | Outstanding |
 |---|---|---|---|---|---|
-| Dreadwatch repo, previously audited `dff1336` | Partial (SC prior report) | PTR diagnostics; no production boss-mod engine at prior commit (SC) | UN | UN | Fresh full HEAD inventory, every module/function, actual runtime |
+| **Dreadwatch v0.1.1-bigtest engine ZIP** | Five Lua files and TOC inventoried (SC) | Synthetic encounter engine, registry, UI, test harness (SC) | Basic settings/window position (SC) | Callback pcall; native logging absent (SC) | Compare **actual engine** current HEAD, runtime and production subsystems |
 | DBM-Core **12.1.19** supplied ZIP | `DBM-Core/DBM-Core.toc`: interface 16001; DBM-StatusBarTimers dependency (SC) | `DBM-Core.lua`, `modules/EncounterEvents.lua`, `modules/CombatDetection.lua` (SC) | `DBM_AllSavedOptions`, `DBM_MinimapIcon`, `DBM_AnnoyingPopupDisables`, `DBM_Keystones` declared (SC) | Structured secret warning fields; combat logging ownership (SC); actual Forever success UN | Full call graphs, comms, timers, failures |
 | BigWigs **427.8** supplied ZIP | `BigWigs.toc`: interface 16001; optional libraries (SC) | `Core/Core.lua` eventMap dispatcher, `Core/BossPrototype.lua` Forever branch, `BigWigs_Plugins/Timeline.lua` (SC) | `BigWigs3DB`, `BigWigsIconDB`, `BigWigsStatsDB` declared (SC) | `issecretvalue` guard on mouseover GUID (SC) | All plugins, communication, migrations, performance |
 | LittleWigs **12.1.22** supplied ZIP | `LittleWigs.toc`: requires BigWigs, interface 16001 not listed (SC) | `TBC/TheMechanar/Pathaleon.lua` illustrates start/end/wipe/win and legacy spell handlers (SC) | Shared BigWigs framework likely (IN), details UN | Legacy health/GUID paths not Forever-verified (UN) | Per-dungeon handler inventory, load filters |
@@ -30,7 +32,7 @@ Date: 2026-11-03. Evidence labels: **SC** source-confirmed; **BD** client/build-
 
 ## Actionable gaps
 
-- Fresh Dreadwatch repository tree and all-file/function/event inventory; reconcile any prototype archive with actual GitHub revision.
+- Fresh **actual Dreadwatch engine** repository tree and all-file/function/event inventory; reconcile v0.1.1-bigtest prototype with current engine revision. Exclude retired DreadwatchPTR.
 - DBM complete combat detection, warnings, timeline, scheduling, synchronization and error-handling call graphs at pinned version.
 - BigWigs loader, BossPrototype, plugins, timeline, transport, profile migrations and event performance at pinned version.
 - LittleWigs all-instance/module index, load filters, event handlers and Retail-versus-Forever separation.
