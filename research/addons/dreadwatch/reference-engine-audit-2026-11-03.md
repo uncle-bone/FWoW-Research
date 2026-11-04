@@ -48,3 +48,9 @@ Method: inspected prior repository reports, connected GitHub source files and ma
 
 - **DBM-Core combat detection/logging:** source-traced from fixed 12.1.19 archive, including `CombatDetection.lua`, `Loading.lua`, `UserTimers.lua`, `Difficulties.lua` and options; see [pinned archive report](dbm-combat-detection-logging-2026-11-04.md). Live behavior UN.
 - **Dreadwatch 0.1.1-bigtest packaged core:** all five Lua files, their functions and event/data flows inventoried; see [prototype inventory](dreadwatch-v0.1.1-core-inventory-2026-11-04.md). Current GitHub HEAD remains UN.
+
+## 2026-11-04 HEAD and prototype pipeline resolution
+
+- [GitHub HEAD comparison](github-head-vs-bigtest-2026-11-04.md): pinned Dreadwatch `5002ef2fd2c64b0ebdac588f143da5ed412463ad` tracks four Markdown files, **zero Lua/TOC files**. All six ZIP engine Lua/TOC files are archive-only. Current engine HEAD inventory **resolved** (SC); release assets not audited (UN).
+- [Registry/encounter/scheduler trace](registry-activation-scheduler-trace-2026-11-04.md): all ZIP functions and activation paths covered (SC); no native encounter activation or logger implemented in this prototype; live tests UN.
+- **DreadwatchPTR remains retired** and excluded from active work.
