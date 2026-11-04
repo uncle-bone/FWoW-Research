@@ -47,3 +47,8 @@ Two source-audit workstreams are underway in this repository. See the [addon res
 ## Addon reverse-engineering research
 
 [Addon research index](research/addons/README.md) · [EllesmereUI 9.7.3](research/addons/ellesmereui/README.md) · [ForeverAuras 1.1.0](research/addons/foreverauras/README.md) · [FojjiCore 4.0.3](research/addons/fojjicore/README.md). These are source-grounded, **incomplete** studies; no live certification is claimed.
+
+### Dreadwatch source audits (2026-11-04)
+
+- [DBM-Core 12.1.19 combat detection and logging ownership](research/addons/dreadwatch/dbm-combat-detection-logging-2026-11-04.md)
+- [Dreadwatch 0.1.1 packaged core inventory](research/addons/dreadwatch/dreadwatch-v0.1.1-core-inventory-2026-11-04.md)
