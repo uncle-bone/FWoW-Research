@@ -6,6 +6,9 @@ Keep all conclusions evidence-labeled per [the addon research standards](../READ
 
 ## Reports
 
+- [Pinned GitHub HEAD versus v0.1.1-bigtest engine](github-head-vs-bigtest-2026-11-04.md) — complete four-file tracked tree, six missing Lua/TOC files and archive-only runtime.
+- [Module registry, encounter activation and warning scheduler](registry-activation-scheduler-trace-2026-11-04.md) — every packaged function/event path and behavior gaps.
+
 - [DBM-Core 12.1.19 combat detection and logging ownership](dbm-combat-detection-logging-2026-11-04.md) — archive-pinned logging lifecycle, zone/reload transitions, ownership and failure gaps.
 - [Dreadwatch v0.1.1 packaged core/module inventory](dreadwatch-v0.1.1-core-inventory-2026-11-04.md) — all five Lua files, function/event/data-flow matrix and prototype limitations.
 
