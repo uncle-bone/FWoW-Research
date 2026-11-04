@@ -17,7 +17,7 @@ Date: 2026-11-03. Evidence labels: **SC** source-confirmed; **BD** client/build-
 | BigWigs **427.8** supplied ZIP | `BigWigs.toc`: interface 16001; optional libraries (SC) | `Core/Core.lua` eventMap dispatcher, `Core/BossPrototype.lua` Forever branch, `BigWigs_Plugins/Timeline.lua` (SC) | `BigWigs3DB`, `BigWigsIconDB`, `BigWigsStatsDB` declared (SC) | `issecretvalue` guard on mouseover GUID (SC) | All plugins, communication, migrations, performance |
 | LittleWigs **12.1.22** supplied ZIP | `LittleWigs.toc`: requires BigWigs, interface 16001 not listed (SC) | `TBC/TheMechanar/Pathaleon.lua` illustrates start/end/wipe/win and legacy spell handlers (SC) | Shared BigWigs framework likely (IN), details UN | Legacy health/GUID paths not Forever-verified (UN) | Per-dungeon handler inventory, load filters |
 | DBM-Dungeons Forever release **270**, upstream `f143f5d8` | `DBM-Party-Forever.toc`: load on demand, DBM-Core dependency, four zones (SC) | 24 encounter registration modules, no boss-specific warning/timer handlers in prior complete module scan (SC) | `DBMPartyForever_AllSavedVars`, `DBMPartyForever_SavedStats` (SC) | Generic-trash live behavior UN | Actual mechanics and timing observations |
-| DBM-CoA **v6.0.0** | Classic 3.3.5a lineage (SC documentation) | SmartSync v3 described in README; implementation not inspected (SC documentation only) | README requires preservation (SC documentation) | Forever transport compatibility UN | Locate actual source, packet/ACK/reconciliation review |
+| DBM-CoA **v6.0.0** | Classic 3.3.5a lineage (SC documentation) | SmartSync v3 actual source traced: all packet paths, index, gating, simulator (SC; see [full trace](dbm-coa-smartsync3-source-trace-2026-11-03.md)) | README requires preservation (SC documentation) | Forever transport compatibility UN | Learner complete lifecycle, runtime tests, Forever transport validation |
 
 ## Traced source behavior
 
@@ -34,7 +34,7 @@ Date: 2026-11-03. Evidence labels: **SC** source-confirmed; **BD** client/build-
 - DBM complete combat detection, warnings, timeline, scheduling, synchronization and error-handling call graphs at pinned version.
 - BigWigs loader, BossPrototype, plugins, timeline, transport, profile migrations and event performance at pinned version.
 - LittleWigs all-instance/module index, load filters, event handlers and Retail-versus-Forever separation.
-- DBM-CoA **actual** SmartSync v3 source, protocol grammar, fingerprint collisions, queues, ACKs, persistence and isolated simulator.
+- DBM-CoA SmartSync v3 source trace is now [completed at the primary protocol-file level](dbm-coa-smartsync3-source-trace-2026-11-03.md); full Learner lifecycle and dynamic tests remain.
 - Client build 70755 live encounter-warning/timeline payload tests and verified automatic combat-log start/stop; never infer observed-live from static source.
 - Record archive SHA-256 and upstream commit for every inspected artifact in a subsequent reproducibility pass.
 
