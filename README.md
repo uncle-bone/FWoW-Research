@@ -39,3 +39,7 @@ The client has since updated to build 70755. The addon/source comparison and bui
 A focused follow-up records the [Headless Horseman module candidates](research/encounter-source-audits/2026-11-03-headless-horseman-source-candidates.md) and [machine-readable candidates](research/encounter-source-audits/2026-11-03-headless-horseman-source-candidates.json). They are source-only or historical; the installed DBM-WorldEvents TOC does not target interface 16001.
 
 A follow-up catalogs the [KwikTip Forever static encounter records](research/encounter-source-audits/2026-11-03-kwiktip-forever-coverage.md) and [machine-readable coverage](research/encounter-source-audits/2026-11-03-kwiktip-forever-coverage.json). It contributes 13 normal-mode encounter ID/name candidates for Hall of Thanes, Ragefire Chasm, and Stormwind Stockade; its own documentation says the package is not client-tested and has zero complete dungeons.
+
+### Addon reverse engineering
+
+Two source-audit workstreams are underway in this repository. See the [addon research index](research/addons/README.md) for evidence standards and coverage expectations, [Dreadwatch](research/addons/dreadwatch/README.md), and [BoneUI addon studies](research/addons/boneui/README.md). These analyses track source evidence and unresolved runtime verification separately.
