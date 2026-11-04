@@ -6,6 +6,8 @@ Keep all conclusions evidence-labeled per [the addon research standards](../READ
 
 ## Reports
 
+- [DBM-CoA SmartSync v3 end-to-end source trace](dbm-coa-smartsync3-source-trace-2026-11-03.md) — all H/S/I/K/K2/R/R2/D/A paths, validation, indexing, gating, persistence, simulator and risks.
+
 - [Reference-engine source audit and per-addon coverage matrix](reference-engine-audit-2026-11-03.md) — DBM-Core, DBM-Dungeons Forever, BigWigs, LittleWigs, DBM-CoA and Dreadwatch; source paths, evidence labels and open gaps.
 
 ## Completion matrix
