@@ -33,3 +33,4 @@ See the [per-addon matrix](reference-engine-audit-2026-11-03.md#per-addon-covera
 ## Open questions and verification gaps
 
 See [actionable gaps](reference-engine-audit-2026-11-03.md#actionable-gaps).
+- [DBM-Core 12.1.19 exact-version Forever registration comparator](dbm-12119-forever-registration-comparator-2026-11-04.md) — user-verified distinction between restricted mode and Retail-only timeline/warning event registration; DBM handler tracing reserved for parallel workstream.
