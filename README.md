@@ -22,7 +22,10 @@ Every imported record should carry `source_url`, `observed_build`, `collected_at
 
 ## WoW-Professions Forever archive
 
-The [profession source archive](research/professions/2026-11-09-FOREVER-PROFESSIONS-DETAILED-SOURCE-ARCHIVE.md) inventories all 15 linked pages: all 13 profession guide pages plus Camping and Merchant's Favor. It records page structures, source caveats, Forever-specific findings, and current extraction gaps. It is an original research index and summary, not a full offline mirror; the source guide pages remain linked because they contain their complete material lists, route maps, and article details. Guide recommendations are beta/editorial claims until verified against a matching Forever client build.
+- [Profession source archive and coverage map](research/professions/2026-11-09-FOREVER-PROFESSIONS-DETAILED-SOURCE-ARCHIVE.md) — all 13 profession guides plus the two “More Guides” pages are indexed, with section structure, source caveats, extracted findings and remaining gaps.
+- [Camping and Merchant's Favor offline reference](research/professions/2026-11-09-WOW-PROFESSIONS-CAMPING-MERCHANTS-FAVOR-OFFLINE-REFERENCE.md) — standalone gameplay-system notes for campfire tiers, profession camp items, Waylaid Crates, Craftsman's Writs, reputation and reward categories.
+
+The archive is an independently written research reference, not a verbatim mirror of WoW-Professions.com. Original pages contain their current full tables, maps, and article text. Their recommendations are beta/editorial claims until checked against a matching Forever client build.
 
 ## Local client scan
 
