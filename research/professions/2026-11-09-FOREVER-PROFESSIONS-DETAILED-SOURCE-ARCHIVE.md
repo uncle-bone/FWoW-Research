@@ -32,7 +32,7 @@ Reviewed 2026-11-09. Original site: https://www.wow-professions.com/forever
 | Camping | https://www.wow-professions.com/forever/camping-guide |
 | Merchant's Favor | https://www.wow-professions.com/forever/merchants-favor-durotar-supply-azeroth-commerce |
 
-## Article section map and Forever-specific scope
+## Expanded companion notes\n\nAddon-oriented route summaries for Engineering, Leatherworking, Tailoring, Mining, Skinning, First Aid, Cooking, Fishing, and combined Fishing + Cooking are in [the expanded route notes](2026-11-09-WOW-PROFESSIONS-EXPANDED-ROUTE-NOTES.md). A system-focused offline summary for Camping and Merchant's Favor is in [the companion reference](2026-11-09-WOW-PROFESSIONS-CAMPING-MERCHANTS-FAVOR-OFFLINE-REFERENCE.md).\n\n## Article section map and Forever-specific scope
 
 This section map records the guide structure observed on 2026-11-09 so research and addon data ingestion can cover the full site. Skill brackets are page section labels; they are guide thresholds, not proof the route is optimal or validated on live.
 
@@ -124,8 +124,8 @@ Store original, independently checked factual records with: `profession`, `skill
 ## Coverage limitations and outstanding work
 
 - **All 15 landing-page URLs are inventoried and their major section structure is recorded.**
-- **Substantive fact extraction currently covers Alchemy, Blacksmithing, Enchanting and Herbalism.** Other guides have only section-map / scope-level notes here, not exhaustive recipe-by-recipe, trainer-by-trainer or route-by-route data.
-- Camping and Merchant's Favor need exact reward/recipe/turn-in extraction.
+- **Substantive factual notes now span all profession guides and both supplementary systems across this archive and its companion files.** The craft routes, recipe-by-recipe steps, full trainer tables, material totals, and complete rewards/recipe catalogues are still not exhaustively captured.
+- Camping and Merchant's Favor have system mechanics summarized; their complete profession item tables, reward recipe inventory, and all crate/writ variants still need a structured fact-by-fact extraction.
 - No full copyrighted article text, complete shopping lists, original route-map images, or website HTML copied into this repository.
 - No live client verification. Beta-derived source recommendations must not be labeled confirmed-live.
 
