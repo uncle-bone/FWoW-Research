@@ -20,6 +20,10 @@ The `wow_classic_beta` product code has hosted other games: verify the client ve
 ## Data integrity
 Every imported record should carry `source_url`, `observed_build`, `collected_at`, `method`, `license`, and `confidence`. Keep beta-only, client-extracted, community-observed, and confirmed-live records distinct. Store independently authored summaries and permitted factual metadata, not bulk copies of third-party protected content.
 
+## WoW-Professions Forever archive
+
+The [profession source archive](research/professions/2026-11-09-FOREVER-PROFESSIONS-DETAILED-SOURCE-ARCHIVE.md) inventories all 15 linked pages: all 13 profession guide pages plus Camping and Merchant's Favor. It records page structures, source caveats, Forever-specific findings, and current extraction gaps. It is an original research index and summary, not a full offline mirror; the source guide pages remain linked because they contain their complete material lists, route maps, and article details. Guide recommendations are beta/editorial claims until verified against a matching Forever client build.
+
 ## Local client scan
 
 A locally installed Forever client was verified as flavor `wowf`, version `1.60.1.70707` (build 70707). The first scan’s source-attributed, addon-derived catalog records and audit are in [research/local-client-scans/2026-11-03](research/local-client-scans/2026-11-03/README.md). The scan found 35 dungeon journal instance files, 311 named NPC/catalog rows (279 with explicit NPC IDs; 201 with encounter IDs), and 24 custom DBM Forever registration modules. These static addon records are not live-mechanics verification. No client archives, executable, or addon folders were added.
